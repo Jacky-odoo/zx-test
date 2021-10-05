@@ -15,10 +15,15 @@
         'Nejc Gale <nejc@luxim.si>',
     ],
     'depends': [
+        'base'
         # 'sale_stock', # (included in sale_backorder)
         # 'purchase_stock', # (included in purchase_backorder)
         # 'sale_backorder',
         # 'purchase_backorder'
+        # 'pmis_product_pricelist_supplierinfo'
+    ],
+    'data': [
+        'data/reformat_leng.xml'
     ],
     'summary': 'Global Translate Module',
     'installable': True,
