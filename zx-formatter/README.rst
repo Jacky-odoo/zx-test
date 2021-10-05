@@ -11,6 +11,8 @@ Overrides default en_US formatting (separators, datetime (d/m/y))
 
 Formatting is set in data/reformat-leng.xml
 
+Working as intended.
+
 Contributors
 ------------
 
