@@ -1,5 +1,3 @@
-# Part of pmis_ux odoo module. See README, manifest and
-# LICENSE files for full copyright and licensing details.
 {
     'name': 'Global Translate Module',
     'version': '12.0.1',
@@ -16,7 +14,7 @@
         'Nejc Gale <nejc@luxim.si>',
     ],
     'depends': [
-        'base'
+        'base',
         # 'sale_stock', # (included in sale_backorder)
         # 'purchase_stock', # (included in purchase_backorder)
         # 'sale_backorder',
@@ -24,7 +22,7 @@
         # 'pmis_product_pricelist_supplierinfo'
     ],
     'data': [
-        'data/TranButton.xml'
+        # 'data/TranButton.xml'
     ],
     'summary': 'Global Translate Module',
     'installable': True,
