@@ -1,5 +1,3 @@
-# Part of pmis_ux odoo module. See README, manifest and
-# LICENSE files for full copyright and licensing details.
 {
     'name': 'en_US Formatter',
     'version': '12.0.1',
@@ -17,11 +15,6 @@
     ],
     'depends': [
         'base'
-        # 'sale_stock', # (included in sale_backorder)
-        # 'purchase_stock', # (included in purchase_backorder)
-        # 'sale_backorder',
-        # 'purchase_backorder'
-        # 'pmis_product_pricelist_supplierinfo'
     ],
     'data': [
         'data/reformat_leng.xml'
