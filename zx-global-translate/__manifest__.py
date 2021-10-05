@@ -5,7 +5,8 @@
     'version': '12.0.1',
     'category': 'ZX-TEST',
     'license': 'AGPL-3',
-    'author': 'Luxim, '
+    'author': 'Nejc86, '
+              'Luxim, '
               'Matmoz, '
               'PMISuite',
     'website': 'https://luxim.si',
@@ -23,7 +24,7 @@
         # 'pmis_product_pricelist_supplierinfo'
     ],
     'data': [
-        'data/reformat_leng.xml'
+        'data/TranButton.xml'
     ],
     'summary': 'Global Translate Module',
     'installable': True,

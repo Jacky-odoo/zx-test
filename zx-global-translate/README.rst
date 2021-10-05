@@ -6,3 +6,9 @@ Global Translate Module
     :alt: Version: 12.0
 
 |badge2|
+
+Attempts to collect slovenian translation files into one .po file and collects all template files in one.
+
+!Buggy!
+===========
+ * Work in progress.
