@@ -1,6 +1,6 @@
 {
     'name': 'ZX Formatter',
-    'version': '12.0.1',
+    'version': '0.1',
     'category': 'ZX-TEST',
     'license': 'AGPL-3',
     'author': 'Nejc86, '
