@@ -8,8 +8,8 @@
         <field name="arch" type="xml">
             <form string="Language Translation Wizard">
                 <header>
-                    <button string="Collect" name="get_pot" type="object" states="waiting" class="oe_highlight" icon="fa-cogs"/>
-                    <button string="Download" name="dl_pot" type="object" states="ready" class="oe_highlight" icon="fa-download"/>
+                    <button string="Collect" name="get_pot" type="object" class="oe_highlight" icon="fa-cogs"/>
+                    <button string="Download" name="dl_pot" type="object" class="oe_highlight" icon="fa-download"/>
 <!--                    <field name="state" widget="statusbar" statusbar_visible="ready,done"/>-->
                 </header>
                 <group align="left">
@@ -22,7 +22,7 @@
                     <span>Reload the translation in the database through Odoo</span>
                 </group>
                 <footer>
-                    <button string="Done" name="pot_done" type="object" states="done" class="oe_highlight"/>
+                    <button string="Done" name="pot_done" type="object" class="oe_highlight"/>
                     <button string="Cancel" class="oe_link" special="cancel"/>
                 </footer>
             </form>
