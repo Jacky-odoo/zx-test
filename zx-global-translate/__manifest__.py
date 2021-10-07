@@ -1,6 +1,6 @@
 {
-    'name': 'Global Translate Module',
-    'version': '12.0.1',
+    'name': 'ZX Global Translate Module',
+    'version': '0.1',
     'category': 'ZX-TEST',
     'license': 'AGPL-3',
     'author': 'Nejc86, '
@@ -18,7 +18,7 @@
     ],
     'data': [
     ],
-    'summary': 'Global Translate Module',
+    'summary': 'Module uses single .po file to overwrite local translations with your own (bypass repo changes)',
     'installable': True,
     'application': False,
     'auto_install': False,

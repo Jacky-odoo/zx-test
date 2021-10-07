@@ -1,5 +1,5 @@
 {
-    'name': 'en_US Formatter',
+    'name': 'ZX Formatter',
     'version': '12.0.1',
     'category': 'ZX-TEST',
     'license': 'AGPL-3',
@@ -19,7 +19,7 @@
     'data': [
         'data/reformat_leng.xml'
     ],
-    'summary': 'en_US Formatter',
+    'summary': 'Simple module to change the default en_US date and time format and separators',
     'installable': True,
     'application': False,
     'auto_install': False,

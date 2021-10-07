@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+<!--<!– Define the form view –>-->
+    <record model="ir.ui.view" id="lang_wizz_form">
+        <field name="name">lang.tran.wizz</field>
+        <field name="model">lang.wizz</field>
+        <field name="arch" type="xml">
+            <form string="Language Translation Wizard">
+                <header>
+                    <button string="Collect" name="get_pot" type="object" states="waiting" class="oe_highlight" icon="fa-cogs"/>
+                    <button string="Download" name="dl_pot" type="object" states="ready" class="oe_highlight" icon="fa-download"/>
+<!--                    <field name="state" widget="statusbar" statusbar_visible="ready,done"/>-->
+                </header>
+                <group align="left">
+<!--<!– Define fields–>-->
+                    <span>Click on <b>Collect</b> to download the master .pot file. \n</span>
+                    <span>Open the downloaded .pot file in Poedit to fix it. Save the file.</span>
+                    <span>Create or Update the translation for your language and upload the .po</span>
+                </group>
+                <group align="right">
+                    <span>Reload the translation in the database through Odoo</span>
+                </group>
+                <footer>
+                    <button string="Done" name="pot_done" type="object" states="done" class="oe_highlight"/>
+                    <button string="Cancel" class="oe_link" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+<!--<!– Define the action –>-->
+
+    <record id="lang_wizz_action" model="ir.actions.act_window">
+        <field name="name">Language Translation Wizard</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">lang.wizz</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+<!--<!– Define the menu –>-->
+    <menuitem id="lang_wizz_menu" parent="base.menu_translation" name="Language Wizard" action="lang_wizz_action"/>
+
+</odoo>
