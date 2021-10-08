@@ -36,6 +36,6 @@ class LangWizz(models.TransientModel):
 		# 	rec.state = 'done'
 		return {
 			'type': 'ir.actions.act_url',
-			'url': str(potsrc+'download=true'),
+			'url': potsrc,
 			'target': 'self',
 		}
