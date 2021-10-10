@@ -1,3 +1,3 @@
 # ZX-Test
 
-Testing modules for Odoo 12.0
+Testing modules for Odoo 14.0
