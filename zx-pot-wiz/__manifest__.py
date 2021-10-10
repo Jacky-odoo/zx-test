@@ -18,7 +18,7 @@
         'zx-global-translate'
     ],
     'data': [
-        'security/ir.model.access.csv',
+        # 'security/ir.model.access.csv',
         'views/theview.xml'
     ],
     'summary': 'Module to collect all .pot files in project',

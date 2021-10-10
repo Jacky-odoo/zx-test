@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-<script src="https://gist.github.com/yucer/0c68310f8ce282fbbd3f61db545478c9.js"></script>
+<!--<script src="https://gist.github.com/yucer/0c68310f8ce282fbbd3f61db545478c9.js"></script>-->
 <!--<!– Define the form view –>-->
     <record model="ir.ui.view" id="lang_wizz_form">
         <field name="name">lang.tran.wizz</field>
@@ -10,7 +10,7 @@
                 <header>
                     <button string="Collect" name="get_pot" type="object" class="oe_highlight" icon="fa-cogs"/>
                     <button string="Download" name="dl_pot" type="object" class="oe_highlight" icon="fa-download"/>
-                    <field name="state" widget="statusbar" statusbar_visible="ready,done"/>
+<!--                    <field name="state" widget="statusbar" statusbar_visible="ready,done"/>-->
                 </header>
                 <group align="left">
 <!--<!– Define fields–>-->
@@ -22,7 +22,7 @@
                     <span>Reload the translation in the database through Odoo</span>
                 </group>
                 <footer>
-                    <button string="Done" name="pot_done" type="object" class="oe_highlight"/>
+<!--                    <button string="Done" name="pot_done" type="object" class="oe_highlight"/>-->
                     <button string="Cancel" class="oe_link" special="cancel"/>
                 </footer>
             </form>
@@ -35,7 +35,7 @@
         <field name="name">Language Translation Wizard</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">lang.wizz</field>
-        <field name="view_type">form</field>
+        <field name="view_id" ref="lang_wizz_form"/>
         <field name="view_mode">form</field>
         <field name="target">new</field>
     </record>
