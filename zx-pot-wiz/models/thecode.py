@@ -2,7 +2,10 @@
 
 import os
 import glob
+import pandas as pd
+
 from odoo import models, fields, api
+
 home = os.path.expanduser("~")  # get root directory
 filenames = glob.glob(home+"/**/*.pot")  # list of all .pot files in the root directory
 potsrc = home+'/odoo/zx-test/zx-global-translate/i18n/zx-global-translate-generated.pot'  # .pot file location
@@ -39,3 +42,9 @@ class LangWizz(models.TransientModel):
 			'url': potsrc,
 			'target': 'self',
 		}
+
+	@api.multi
+	def print_pandas(self):
+		# place "r" before the path string to address special character, such as '\'. Don't forget to put the file name at the end of the path + '.xlsx'
+		df = pd.read_excel(r'C:\Users\Nejc\odoo\zx-test\zx-pot-wiz\tmp\pricelist-test.xlsx')
+		print(df)
