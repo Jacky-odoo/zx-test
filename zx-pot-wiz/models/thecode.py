@@ -19,8 +19,8 @@ potsrc = home+'/odoo/zx-test/zx-global-translate/i18n/zx-global-translate-genera
 class LangWizz(models.Model):
 	_name = 'lang.wizz'
 
-	someText = fields.Char(string='Some Text', required=True)
-	potFile = fields.Binary(string='pot file')
+	# someText = fields.Char(string='Some Text', required=True)
+	# potFile = fields.Binary(string='pot file')
 
 	@api.multi
 	def get_pot(self):

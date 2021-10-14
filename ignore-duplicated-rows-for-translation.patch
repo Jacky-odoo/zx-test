@@ -1,0 +1,158 @@
+From de641d9474417203e707c0932185c1dccfd39e96 Mon Sep 17 00:00:00 2001
+From: Yurdik Cervantes <ycervantes@elegosoft.com>
+Date: Wed, 4 Dec 2019 12:16:48 +0100
+Subject: [FIX] ignore duplicated rows for translation imports
+
+In the cases where conflicting translation rows are imported (for
+example `.po` vs `.pot` files) the import queries during the database
+update fail with one stop error.
+
+With this change, just one of the duplicated rows to import is left,
+the others are deleted.
+
+That means that only ones of those translations would prevail.
+
+The translation conflict is still shown in the logs before delete
+them.
+---
+ FULLOCA/__src__/OCB/odoo/addons/base/models/ir_translation.py | 90 +++++++++++++++++++++++
+ 1 file changed, 90 insertions(+)
+
+diff --git a/FULLOCA/__src__/OCB/odoo/addons/base/models/ir_translation.py b/FULLOCA/__src__/OCB/odoo/addons/base/models/ir_translation.py
+index 25452460c90..1cd094fc53f 100644
+--- a/FULLOCA/__src__/OCB/odoo/addons/base/models/ir_translation.py
++++ b/FULLOCA/__src__/OCB/odoo/addons/base/models/ir_translation.py
+@@ -40,6 +40,8 @@ class IrTranslationImport(object):
+         self._model_table = model._table
+         self._overwrite = model._context.get('overwrite', False)
+         self._debug = False
++        self._log_duplicated = True
++        self._delete_duplicated = True
+         self._rows = []
+ 
+         # Note that Postgres will NOT inherit the constraints or indexes
+@@ -135,6 +137,7 @@ class IrTranslationImport(object):
+         count = 0
+         # Step 2: insert new or upsert non-noupdate translations
+         if self._overwrite:
++            self.check_duplicated(['code'], ['type', 'lang', 'md5(src)'])
+             cr.execute(""" INSERT INTO %s(name, lang, res_id, src, type, value, module, state, comments)
+                            SELECT name, lang, res_id, src, type, value, module, state, comments
+                            FROM %s
+@@ -145,6 +148,7 @@ class IrTranslationImport(object):
+                             WHERE EXCLUDED.value IS NOT NULL AND EXCLUDED.value != '';
+                        """ % (self._model_table, self._table))
+             count += cr.rowcount
++            self.check_duplicated(['model'], ['type', 'lang', 'name', 'res_id'])
+             cr.execute(""" INSERT INTO %s(name, lang, res_id, src, type, value, module, state, comments)
+                            SELECT name, lang, res_id, src, type, value, module, state, comments
+                            FROM %s
+@@ -155,6 +159,7 @@ class IrTranslationImport(object):
+                             WHERE EXCLUDED.value IS NOT NULL AND EXCLUDED.value != '';
+                        """ % (self._model_table, self._table))
+             count += cr.rowcount
++            self.check_duplicated(['selection', 'constraint', 'sql_constraint'], ['type', 'lang', 'name', 'md5(src)'])
+             cr.execute(""" INSERT INTO %s(name, lang, res_id, src, type, value, module, state, comments)
+                            SELECT name, lang, res_id, src, type, value, module, state, comments
+                            FROM %s
+@@ -165,6 +170,7 @@ class IrTranslationImport(object):
+                             WHERE EXCLUDED.value IS NOT NULL AND EXCLUDED.value != '';
+                        """ % (self._model_table, self._table))
+             count += cr.rowcount
++            self.check_duplicated(['model_terms'], ['type', 'name', 'lang', 'res_id', 'md5(src)'])
+             cr.execute(""" INSERT INTO %s(name, lang, res_id, src, type, value, module, state, comments)
+                            SELECT name, lang, res_id, src, type, value, module, state, comments
+                            FROM %s
+@@ -193,6 +199,90 @@ class IrTranslationImport(object):
+         self._rows.clear()
+         return True
+ 
++    def check_duplicated(self, types, dup_keys):
++        """ Debug translation conflicts """
++        if not self._log_duplicated:
++            return
++        cr = self._cr
++        table=self._table
++        I18N_IMPORT_DUP_SQL = '''
++            WITH trans AS (
++                SELECT
++                    *,
++                    row_number() over (partition by %(dup_keys)s) as idx,
++                    count(*) over (partition by %(dup_keys)s) as cnt
++                FROM %(table)s
++                WHERE type in %(types)s AND noupdate IS NOT TRUE
++            )
++            SELECT
++                idx,
++                imd_model,
++                imd_name,
++                noupdate,
++                name,
++                lang,
++                res_id,
++                src,
++                type,
++                value,
++                module,
++                state,
++                comments
++            FROM trans
++            WHERE trans.cnt > 1
++        ''' % {
++            'dup_keys': '(%s)' % (', '.join(dup_keys)),
++            'table': table,
++            'types': "%s",
++        }
++        cr.execute(I18N_IMPORT_DUP_SQL, [tuple(types)])
++        dups = defaultdict(list)
++        for row in cr.dictfetchall():
++            common = {k:v for (k,v) in row.items() if k in dup_keys}
++            others = {k:v for (k,v) in row.items() if k not in dup_keys}
++            idx = tuple(common.values())
++            dups[idx].append(others)
++        dup_exist = False
++        for (idx, dup_vals) in dups.items():
++            _logger.warning("%s duplicated translations loaded for: %s", len(dup_vals), idx)
++            for (num, entry) in enumerate(dup_vals):
++                _logger.warning("trans #%s -> %s", num, entry)
++                dup_exist = True
++        if dup_exist and self._delete_duplicated:
++            self.delete_duplicated(types, dup_keys)
++
++    def delete_duplicated(self, types, d_keys):
++        """ Debug translation conflicts """
++
++        def map_t(_table, field):
++            if field == 'md5(src)':
++                res = 'md5(%s.src)' % _table
++            else:
++                res = '.'.join([_table, field])
++            return res
++
++        cr = self._cr
++        table=self._table
++        expr = ['='.join([map_t('a',f1), map_t('b',f2)]) for (f1,f2) in zip(d_keys, d_keys)]
++        cmp_keys = ' AND '.join(expr)
++        I18N_IMPORT_DUP_DELETE_SQL = '''
++            DELETE FROM %(table)s a USING (
++                SELECT MIN(ctid) as ctid, %(dup_keys)s
++                FROM %(table)s
++                WHERE type in %(types)s AND noupdate IS NOT TRUE
++                GROUP BY %(dup_keys)s
++                HAVING COUNT(*) > 1
++            ) b
++            WHERE %(cmp_keys)s
++            AND a.ctid <> b.ctid
++        ''' % {
++            'dup_keys': ', '.join(d_keys),
++            'table': table,
++            'types': "%s",
++            'cmp_keys': cmp_keys,
++        }
++        cr.execute(I18N_IMPORT_DUP_DELETE_SQL, [tuple(types)])
++
+ 
+ class IrTranslation(models.Model):
+     _name = "ir.translation"
+-- 
+2.17.1

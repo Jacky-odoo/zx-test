@@ -17,7 +17,6 @@
         'base'
     ],
     'data': [
-        'views/theview.xml'
     ],
     'summary': 'Module uses single .po file to overwrite local translations with your own (bypass repo changes)',
     'installable': True,

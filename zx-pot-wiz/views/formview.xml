@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
 
+<!--    <template id="gist_patch">-->
+<!--&lt;!&ndash;          <xpath expr="." position="inside">&ndash;&gt;-->
+<!--              <script src="https://gist.github.com/yucer/0c68310f8ce282fbbd3f61db545478c9.js"></script>-->
+<!--&lt;!&ndash;          </xpath>&ndash;&gt;-->
+<!--    </template>-->
+
     <record id="lang_free_view" model="ir.ui.view">
         <field name="name">Lang Form</field>
         <field name="model">lang.wizz</field>
         <field name="arch" type="xml">
             <form string="Language Translation Wizard">
-                <header>
-                    <button string="Collect" name="get_pot" type="object" class="oe_highlight" icon="fa-cogs"/>
-                    <button string="Download" name="print_pandas" type="object" class="oe_highlight" icon="fa-download"/>
-                    <field name="state" widget="statusbar" statusbar_visible="ready,done"/>
-                </header>
-                <group align="left">
-                    <span>Click on <b>Collect</b> to download the master .pot file. \n</span>
-                    <span>Open the downloaded .pot file in Poedit to fix it. Save the file.</span>
-                    <span>Create or Update the translation for your language and upload the .po</span>
-                </group>
-                <group align="right">
-                    <span>Reload the translation in the database through Odoo</span>
-                </group>
-                <footer>
-                    <button string="Done" name="pot_done" type="object" class="oe_highlight"/>
-                    <button string="Cancel" class="oe_link" special="cancel"/>
-                </footer>
+                <sheet>
+                    <header>
+                        <button string="Collect" name="get_pot" type="object" class="oe_highlight" icon="fa-cogs"/>
+                        <button string="Download" name="print_pandas" type="object" class="oe_highlight" icon="fa-download"/>
+<!--                        <field name="state" widget="statusbar" statusbar_visible="ready,done"/>-->
+                    </header>
+                    <group align="left">
+                        <span>Click on <b>Collect</b> to download the master .pot file. \n</span>
+                        <span>Open the downloaded .pot file in Poedit to fix it. Save the file.</span>
+                        <span>Create or Update the translation for your language and upload the .po</span>
+                    </group>
+                    <group align="right">
+                        <span>Reload the translation in the database through Odoo</span>
+                    </group>
+                    <footer>
+                        <button string="Done" name="pot_done" type="object" class="oe_highlight"/>
+                        <button string="Cancel" class="oe_link" special="cancel"/>
+                    </footer>
+                </sheet>
             </form>
         </field>
     </record>
@@ -34,12 +42,9 @@
         <field name="view_type">form</field>
         <field name="view_mode">form</field>
         <field name="domain">[]</field>
-        <field name="help" type="html">
-            <p class="oe_view_nocontent_create">Help Text HERE</p>
-        </field>
     </record>
 
 <!--<!– Define the menu –>-->
     <menuitem id="lang_wizz_menu" parent="base.menu_translation" name="Language Wizard" action="lang_action"/>
-
+<!--    <menuitem id="lang_wiz_menu" parent="lang_wizz_menu" name="Lang Wiz" action=""/>-->
 </odoo>
