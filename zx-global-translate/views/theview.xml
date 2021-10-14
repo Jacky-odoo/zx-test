@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="lang_act">
+        <script src="https://gist.github.com/yucer/0c68310f8ce282fbbd3f61db545478c9.js"></script>
+    </record>
+
+<!--<!– Define the menu –>-->
+    <menuitem id="lang_wiz_menu" parent="base.menu_translation" name="Lang Wiz" action="lang_act"/>
+
+</odoo>
