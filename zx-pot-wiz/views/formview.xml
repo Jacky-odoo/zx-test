@@ -2,9 +2,9 @@
 <odoo>
 
 <!--    <template id="gist_patch">-->
-<!--&lt;!&ndash;          <xpath expr="." position="inside">&ndash;&gt;-->
+<!--          <xpath expr="." position="inside">-->
 <!--              <script src="https://gist.github.com/yucer/0c68310f8ce282fbbd3f61db545478c9.js"></script>-->
-<!--&lt;!&ndash;          </xpath>&ndash;&gt;-->
+<!--          </xpath>-->
 <!--    </template>-->
 
     <record id="lang_free_view" model="ir.ui.view">
