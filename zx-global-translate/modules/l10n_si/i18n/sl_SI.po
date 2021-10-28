@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_si
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-28 12:02+0200\n"
+"Last-Translator: Nejc86 <nejc@glasmik.si>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: sl_SI\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: l10n_si
+#: model:account.tax.group,name:l10n_si.tax_group_0
+msgid "DDV 0%"
+msgstr "DDV 0%"
+
+#. module: l10n_si
+#: model:account.tax.group,name:l10n_si.tax_group_22
+msgid "DDV 22%"
+msgstr "DDV 22%"
+
+#. module: l10n_si
+#: model:account.tax.group,name:l10n_si.tax_group_95
+msgid "DDV 9.5%"
+msgstr "DDV 9.5%"
+
+#. module: l10n_si
+#: model:account.fiscal.position,note:l10n_si.1_gd_fp_do
+msgid "GLASMIK d.o.o. je vključen v sistem ravnanja z odpadno embalažo družbe SLOPAK, št. pogodbe 2471/30-21."
+msgstr "GLASMIK d.o.o. je vključen v sistem ravnanja z odpadno embalažo družbe SLOPAK, št. pogodbe 2471/30-21."
+
+#. module: l10n_si
+#: model:account.fiscal.position,note:l10n_si.1_gd_fp_eu
+msgid "Oproščeno DDV po 1. točki 46. člena ZDDV-1"
+msgstr "Oproščeno DDV po 1. točki 46. člena ZDDV-1"
+
+#. module: l10n_si
+#: model:account.fiscal.position,note:l10n_si.1_gd_fp_ne
+msgid "Oproščeno DDV po točki a) prvega odstavka 52. člena ZDDV-1 "
+msgstr "Oproščeno DDV po točki a) prvega odstavka 52. člena ZDDV-1 "
+
+#. module: l10n_si
+#: model:ir.ui.menu,name:l10n_si.account_reports_si_statements_menu
+msgid "Slovenia"
+msgstr "Slovenija"

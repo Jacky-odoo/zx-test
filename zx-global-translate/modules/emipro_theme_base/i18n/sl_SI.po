@@ -1,0 +1,677 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* emipro_theme_base
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.configure_website_menus_form_view_inherit
+msgid "<span class=\"o_stat_text\">Design Menu</span>"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.slider_form_view
+msgid "<span class=\"o_stat_text\">Preview</span>"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__active
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__active
+msgid "Active"
+msgstr "Aktivno"
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_form
+msgid "Add/Remove Products of this Brand"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__is_price_filter_enable
+msgid "Allow Price Filter"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.actions.act_window,name:emipro_theme_base.action_product_brand_ept
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_product__product_brand_ept_id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_template__product_brand_ept_id
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_template_brand_add_form
+msgid "Brand"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__name
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_form
+msgid "Brand Name"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.actions.act_window,name:emipro_theme_base.action_open_brand_products
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__product_ids
+msgid "Brand Products"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__brand_weight
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_form
+msgid "Brand Weight"
+msgstr ""
+
+#. module: emipro_theme_base
+#: selection:slider,slider_type:0
+msgid "Category"
+msgstr "Kategorija"
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_res_company
+msgid "Companies"
+msgstr "Družbe"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__company_id
+msgid "Company"
+msgstr "Družba"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__website_company_info
+msgid "Company Information"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_res_config_settings
+msgid "Config Settings"
+msgstr "Nastavitve"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_public_category__content
+msgid "Content"
+msgstr "Vsebina"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__create_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_label__create_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__create_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__create_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__create_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles__create_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__create_uid
+msgid "Created by"
+msgstr "Ustvaril"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__create_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_label__create_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__create_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__create_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__create_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles__create_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__create_date
+msgid "Created on"
+msgstr "Ustvarjeno"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__description
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_form
+msgid "Description"
+msgstr "Opis"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__display_name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_label__display_name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__display_name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__display_name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__display_name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles__display_name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__display_name
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_pricelist_item__is_display_timer
+msgid "Display TImer"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.social_sharing
+msgid "Display facebook sharing in product page"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.social_sharing
+msgid "Display linkedin sharing in product page"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.social_sharing
+msgid "Display mail sharing in product page"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.social_sharing
+msgid "Display twitter sharing in product page"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__equino_footer_content_ept
+msgid "Equino Footer Content"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__equino_header_offer
+msgid "Equino Header Offer Content"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__expertise
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.expertise_res_company_form_view_inherit
+msgid "Expertise"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_res_company__expertise_ids
+msgid "Expertise ids"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_res_config_settings__facebook_sharing
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__facebook_sharing
+msgid "Facebook"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__slider_filter_ids
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__filter_id
+msgid "Filter"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__slider_id
+msgid "Filter Product"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_ir_filters__filter_ids
+msgid "Filter ids"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_ir_filters
+msgid "Filters"
+msgstr "Filtri"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__website_footer_extra_links
+msgid "Footer Content"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__footer_style_1_content_ept
+msgid "Footer Style 1 Content"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__footer_style_3_content_ept
+msgid "Footer Style 3 Content"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__website_header_extra_links
+msgid "Header Extra Content"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__website_header_offer_ept
+msgid "Header Offer Content"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__website_header_extra_offer
+msgid "Header Offer Extra Content"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_label__id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles__id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__id
+msgid "ID"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_menu__is_dynamic_menu
+msgid "Is Dynamic Menu"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__is_published
+msgid "Is published"
+msgstr "Je objavljeno"
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.label_form_view
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.label_product_template_form_inherit
+msgid "Label"
+msgstr "Naziv"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept____last_update
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_label____last_update
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule____last_update
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider____last_update
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter____last_update
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles____last_update
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise____last_update
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__write_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_label__write_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__write_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__write_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__write_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles__write_uid
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji posodobil"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__write_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_label__write_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__write_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__write_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__write_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles__write_date
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__write_date
+msgid "Last Updated on"
+msgstr "Zadnjič posodobljeno"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_res_config_settings__linkedin_sharing
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__linkedin_sharing
+msgid "Linkedin"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__is_ajax_sorting_products
+msgid "Load Products through Ajax"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__logo
+msgid "Logo File"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_res_config_settings__mail_sharing
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__mail_sharing
+msgid "Mail"
+msgstr "E-pošta"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_menu__html_menu
+msgid "Menu Design Block"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_ir_module_module
+msgid "Module"
+msgstr "Modul"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_label__name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles__name
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_expertise__name
+msgid "Name"
+msgstr "Naziv"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_res_config_settings__number_of_product_line
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__number_of_product_line
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.social_sharing
+msgid "Number of lines for product name"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,help:emipro_theme_base.field_res_config_settings__number_of_product_line
+#: model:ir.model.fields,help:emipro_theme_base.field_website__number_of_product_line
+msgid "Number of lines to show in product name for shop."
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__products_count
+msgid "Number of products"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_pricelist_item__offer_msg
+msgid "Offer Message"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.ui.menu,name:emipro_theme_base.menu_product_popularity_rule_menu
+msgid "Popularity Rule"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_product_pricelist_item
+msgid "Pricelist Item"
+msgstr "Vnos cenovne liste"
+
+#. module: emipro_theme_base
+#: selection:slider,slider_type:0
+msgid "Product"
+msgstr "Izdelek"
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_product_attribute
+msgid "Product Attribute"
+msgstr "Atribut izdeleka"
+
+#. module: emipro_theme_base
+#: model:ir.actions.act_window,name:emipro_theme_base.action_open_single_product_brand
+#: model:ir.model,name:emipro_theme_base.model_product_brand_ept
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_search
+msgid "Product Brand"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.ui.menu,name:emipro_theme_base.menu_product_brand_ept
+msgid "Product Brands"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.actions.act_window,name:emipro_theme_base.label_filter_action
+#: model:ir.model,name:emipro_theme_base.model_product_label
+#: model:ir.ui.menu,name:emipro_theme_base.label_filter
+msgid "Product Label"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.actions.act_window,name:emipro_theme_base.product_popularity_rule_action
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_popularity_rule_form_view
+msgid "Product Popularity Rule"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_popularity_rule_tree_view
+msgid "Product Popularity Rules"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_product_rule
+msgid "Product Rule"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.actions.server,name:emipro_theme_base.score_cron_ir_actions_server
+#: model:ir.cron,cron_name:emipro_theme_base.score_cron
+#: model:ir.cron,name:emipro_theme_base.score_cron
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_product__score
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_template__score
+msgid "Product Score"
+msgstr "Točkovanje izdelka"
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.social_sharing
+msgid "Product Social Sharing"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_product_template
+msgid "Product Template"
+msgstr "Predloga izdeleka"
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.label_form_view
+msgid "Product label"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_form
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_kanban
+msgid "Products"
+msgstr "Izdeleki"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_attribute__is_quick_filter
+msgid "Quick Filter"
+msgstr ""
+
+#. module: emipro_theme_base
+#: selection:product.rule,factor:0
+msgid "Rating Base"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,help:emipro_theme_base.field_product_brand_ept__website_id
+msgid "Restrict publishing to this website."
+msgstr "Omejitev objav na to spletno stran."
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__factor
+msgid "Rule Type"
+msgstr ""
+
+#. module: emipro_theme_base
+#: selection:product.rule,factor:0
+msgid "Sale Base"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_product__label_ept_id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_template__label_ept_id
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.label_product_template_form_inherit
+msgid "Sale Label"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_template_product_score_view
+msgid "Score"
+msgstr "Ocena"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,help:emipro_theme_base.field_product_product__product_brand_ept_id
+#: model:ir.model.fields,help:emipro_theme_base.field_product_template__product_brand_ept_id
+msgid "Select a brand for this product"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,help:emipro_theme_base.field_product_brand_ept__partner_id
+msgid "Select a partner for this brand if any."
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__sequence
+msgid "Sequence"
+msgstr "Zaporedje"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__show_less_msg
+msgid "Show Less Message"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__show_more_msg
+msgid "Show More Message"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_slider
+#: model:ir.ui.menu,name:emipro_theme_base.menu_slider_settings
+msgid "Slider"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_slider_filter
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.slider_filter_form_view
+msgid "Slider Filter"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__slider_limit
+msgid "Slider Limit"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.actions.act_window,name:emipro_theme_base.action_slider_style
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__slider_style_id
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.slider_style_form
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.slider_style_tree
+msgid "Slider Style"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_slider_styles
+#: model:ir.ui.menu,name:emipro_theme_base.menu_slider_style
+msgid "Slider Styles"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__slider_type
+msgid "Slider Type"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.ui.menu,name:emipro_theme_base.menu_sliders
+msgid "Sliders"
+msgstr ""
+
+#. module: emipro_theme_base
+#: code:addons/emipro_theme_base/model/slider.py:32
+#: code:addons/emipro_theme_base/model/slider.py:41
+#, python-format
+msgid "Sorry! Please set product filters first"
+msgstr ""
+
+#. module: emipro_theme_base
+#: code:addons/emipro_theme_base/model/slider_filter.py:32
+#, python-format
+msgid "Sorry! You can not set filter which is content zero product."
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,help:emipro_theme_base.field_product_brand_ept__website_url
+msgid "The full URL to access the document through the website."
+msgstr "Polna URL povezava za dostop do dokumenta preko spletne strani."
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__theme_id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_styles__theme_id
+msgid "Theme"
+msgstr "Tema"
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.website_settings_view_form_ept
+msgid "This feature works on compute price based on your price list\n"
+"                                    and product configuration which will\n"
+"                                    make your product listing little bit slower on shop page."
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__threshold_amount
+msgid "Threshold Amount"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_rule__threshold
+msgid "Threshold Value"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_res_config_settings__twitter_sharing
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__twitter_sharing
+msgid "Twitter"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website_menu__is_vertical_menu
+msgid "Vertical menu"
+msgstr "Vertikalni meni"
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_ir_ui_view
+msgid "View"
+msgstr "Prikaz"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_website__view_all_msg
+msgid "View All Message"
+msgstr "Poglej vsa sporočila"
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__website_published
+msgid "Visible on current website"
+msgstr "Vidno na trenutni spletni strani"
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_website
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__website_id
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider__website_id
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_form
+msgid "Website"
+msgstr "Spletna stran"
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_website_expertise
+msgid "Website Expertise"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_website_menu
+msgid "Website Menu"
+msgstr "Spletni meni"
+
+#. module: emipro_theme_base
+#: model:ir.model,name:emipro_theme_base.model_product_public_category
+msgid "Website Product Category"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_slider_filter__website_published
+msgid "Website Publish"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_public_category__website_published
+msgid "Website Published"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.model.fields,field_description:emipro_theme_base.field_product_brand_ept__website_url
+msgid "Website URL"
+msgstr "URL spletne strani"
+
+#. module: emipro_theme_base
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.product_brand_ept_tree
+msgid "product.brand.ept"
+msgstr ""
+
+#. module: emipro_theme_base
+#: model:ir.actions.act_window,name:emipro_theme_base.action_sliders
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.slider_form_view
+#: model_terms:ir.ui.view,arch_db:emipro_theme_base.slider_tree_view
+msgid "slider"
+msgstr ""
+

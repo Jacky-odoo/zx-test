@@ -1,0 +1,146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* pmisuite-brand
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:30
+#, python-format
+msgid "Access Denied"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:26
+#, python-format
+msgid "Access Error"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/xml/base.xml:23
+#, python-format
+msgid "Activate the developer mode"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/xml/base.xml:25
+#, python-format
+msgid "Activate the developer mode (with assets)"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:82
+#, python-format
+msgid "Cancel"
+msgstr ""
+
+#. module: pmisuite-brand
+#: model:ir.model.fields,field_description:pmisuite-brand.field_website__company_logo
+msgid "Company Logo"
+msgstr "Logotip družbe"
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/xml/base.xml:27
+#, python-format
+msgid "Deactivate the developer mode"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:29
+#, python-format
+msgid "Global Business Error"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/xml/base.xml:10
+#, python-format
+msgid "Log out"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:27
+#, python-format
+msgid "Missing Record"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/xml/base.xml:8
+#, python-format
+msgid "Preferences"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:93
+#, python-format
+msgid "Session Expired"
+msgstr "Seja je potekla"
+
+#. module: pmisuite-brand
+#: model:ir.model.fields,field_description:pmisuite-brand.field_website__company_logo_url
+msgid "Url"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:28
+#, python-format
+msgid "Validation Error"
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:24
+#: code:addons/pmisuite-brand/static/src/js/title.js:25
+#: code:addons/pmisuite-brand/static/src/js/title.js:76
+#, python-format
+msgid "Warning"
+msgstr ""
+
+#. module: pmisuite-brand
+#: model:ir.model,name:pmisuite-brand.model_website
+msgid "Website"
+msgstr "Spletna stran"
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/js/title.js:93
+#, python-format
+msgid "Your Odoo session expired. Please refresh the current web page."
+msgstr ""
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/xml/base.xml:35
+#, python-format
+msgid "Your permission is required to"
+msgstr "Potrebno je vaše dovoljenje za"
+
+#. module: pmisuite-brand
+#. openerp-web
+#: code:addons/pmisuite-brand/static/src/xml/base.xml:36
+#, python-format
+msgid "enable desktop notifications"
+msgstr "aktivacijo  obvestil na namizju"
+

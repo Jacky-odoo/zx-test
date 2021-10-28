@@ -1,0 +1,423 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pmis_vertical_lift
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-28 09:34+0200\n"
+"Last-Translator: Nejc86 <nejc@glasmik.si>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: sl_SI\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: pmis_vertical_lift
+#: model:ir.model,name:pmis_vertical_lift.model_abstract_sync_base
+#: model:ir.model,name:pmis_vertical_lift.model_product_product_sync
+#: model:ir.model,name:pmis_vertical_lift.model_stock_picking_move_sync
+msgid "Abstract Sync Base"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: selection:stock.picking.move.sync,command:0
+msgid "Aggiornamento"
+msgstr "Posodobitev"
+
+#. module: pmis_vertical_lift
+#: selection:stock.picking.move.sync,command:0
+msgid "Aggiornamento Testata Lista"
+msgstr "Posodobitev seznama glave"
+
+#. module: pmis_vertical_lift
+#: selection:product.product.sync,command:0
+msgid "Aggiungi / Modifica"
+msgstr "Dodaj / Uredi"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__aux_int_01
+msgid "Aux Int 01"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__aux_int_02
+msgid "Aux Int 02"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__aux_int_03
+msgid "Aux Int 03"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__aux_text_01
+msgid "Aux Text 01"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__aux_text_02
+msgid "Aux Text 02"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__aux_text_03
+msgid "Aux Text 03"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__barcode
+msgid "Barcode"
+msgstr "Črtna koda"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__batch
+msgid "Batch"
+msgstr "Zbirnik"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__cause
+msgid "Cause"
+msgstr "Vzrok"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,help:pmis_vertical_lift.field_product_product__is_in_vertical_lift
+#: model:ir.model.fields,help:pmis_vertical_lift.field_product_template__is_in_vertical_lift
+#: model:ir.model.fields,help:pmis_vertical_lift.field_stock_location__vertical_lift_location
+msgid "Check this box to use it as the view for Vertical Lift Shuttles."
+msgstr "Označite to polje, če želite, da se uporablja kot pogled za Predale Vertikalnega Dvigala."
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__name
+msgid "Codice prodotto"
+msgstr "Koda izdelka"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__command
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__command
+msgid "Command"
+msgstr "Ukaz"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__create_uid
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__create_uid
+msgid "Created by"
+msgstr "Ustvaril"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_abstract_sync_base__create_date
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__create_date
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__create_date
+msgid "Creation Date"
+msgstr "Datum računa"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__description
+msgid "Descrizione"
+msgstr "Opis"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__description_short
+msgid "Descrizione Breve"
+msgstr "Kratek opis"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_abstract_sync_base__display_name
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__display_name
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__display_name
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: pmis_vertical_lift
+#: selection:stock.picking.move.sync,command:0
+msgid "Elimina lista"
+msgstr "Izbriši seznam"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__minimum_stock
+msgid "Giacenza Minima"
+msgstr "Minimalna zaloga"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_01
+msgid "Header Text 01"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_02
+msgid "Header Text 02"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_03
+msgid "Header Text 03"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_04
+msgid "Header Text 04"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_05
+msgid "Header Text 05"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_06
+msgid "Header Text 06"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_07
+msgid "Header Text 07"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_08
+msgid "Header Text 08"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_09
+msgid "Header Text 09"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__header_text_10
+msgid "Header Text 10"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_abstract_sync_base__id
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__id
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_abstract_sync_base__plant_id
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__plant_id
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_location__vertical_plant_id
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__plant_id
+msgid "Identificativo dell’impianto"
+msgstr "Identifikacija naprave"
+
+#. module: pmis_vertical_lift
+#: selection:abstract.sync.base,state:0 selection:product.product.sync,state:0
+#: selection:stock.picking.move.sync,state:0
+msgid "Importabile (1)"
+msgstr "Uvozljivo (1)"
+
+#. module: pmis_vertical_lift
+#: selection:abstract.sync.base,state:0 selection:product.product.sync,state:0
+#: selection:stock.picking.move.sync,state:0
+msgid "Importato (2)"
+msgstr "Uvoženo (2)"
+
+#. module: pmis_vertical_lift
+#: model:ir.model,name:pmis_vertical_lift.model_stock_location
+msgid "Inventory Locations"
+msgstr "Lokacije zalog"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_location__vertical_lift_location
+msgid "Is a Vertical Lift View Location?"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product__is_in_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_template__is_in_vertical_lift
+msgid "Is in a Vertical Lift"
+msgstr "Je v vertikalnem dvigalu"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__item
+msgid "Item"
+msgstr "Postavka"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__label_info
+msgid "Label Info"
+msgstr "Informacije o oznaki"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_abstract_sync_base____last_update
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync____last_update
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync____last_update
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__write_uid
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji posodobil"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__write_date
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__write_date
+msgid "Last Updated on"
+msgstr "Zadnjič posodobljeno"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__line_aux_text_01
+msgid "Line Aux Text 01"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__line_aux_text_02
+msgid "Line Aux Text 02"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__line_aux_text_03
+msgid "Line Aux Text 03"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__line_number
+msgid "Line Number"
+msgstr "Številka vrstice"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__list_description
+msgid "List Description"
+msgstr "Opis seznama"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__list_number
+msgid "List Number"
+msgstr "Številka seznama"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__list_type
+msgid "List Type"
+msgstr "Tip seznama"
+
+#. module: pmis_vertical_lift
+#: selection:stock.picking.move.sync,command:0
+msgid "Nuova lista da importare"
+msgstr "Nov seznam za uvoz"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__operator_info
+msgid "Operator Info"
+msgstr "Informacije o operaterju"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__weight
+msgid "Peso g"
+msgstr "Teža (g)"
+
+#. module: pmis_vertical_lift
+#: model:ir.actions.server,name:pmis_vertical_lift.cron_stock_picking_move_sync_ir_actions_server
+#: model:ir.cron,cron_name:pmis_vertical_lift.cron_stock_picking_move_sync
+#: model:ir.cron,name:pmis_vertical_lift.cron_stock_picking_move_sync
+msgid "Picking Lift Sync"
+msgstr "Sinhroniziraj nabor z dvigalom"
+
+#. module: pmis_vertical_lift
+#: model:ir.actions.act_window,name:pmis_vertical_lift.action_stock_picking_move_sync
+#: model:ir.ui.menu,name:pmis_vertical_lift.menu_stock_picking_move_sync
+msgid "Picking Sync"
+msgstr "Sinhroniziraj nabor"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__priority
+msgid "Priority"
+msgstr "Prioriteta"
+
+#. module: pmis_vertical_lift
+#: model:ir.actions.server,name:pmis_vertical_lift.cron_product_product_sync_ir_actions_server
+#: model:ir.cron,cron_name:pmis_vertical_lift.cron_product_product_sync
+#: model:ir.cron,name:pmis_vertical_lift.cron_product_product_sync
+msgid "Product Lift Sync"
+msgstr "Sinhroniziraj izdelke z dvigalom"
+
+#. module: pmis_vertical_lift
+#: model:ir.actions.act_window,name:pmis_vertical_lift.action_product_product_sync
+#: model:ir.ui.menu,name:pmis_vertical_lift.menu_product_product_sync
+msgid "Product Sync"
+msgstr "Sinhroniziraj izdelke"
+
+#. module: pmis_vertical_lift
+#: model:ir.model,name:pmis_vertical_lift.model_product_template
+msgid "Product Template"
+msgstr "Predloga izdeleka"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__qty
+msgid "Qty"
+msgstr "Kol."
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_abstract_sync_base__read_date
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__read_date
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__read_date
+msgid "Read Date"
+msgstr ""
+
+#. module: pmis_vertical_lift
+#: selection:abstract.sync.base,state:0 selection:product.product.sync,state:0
+#: selection:stock.picking.move.sync,state:0
+msgid "Record Creato (0)"
+msgstr "Zapis ustvarjen (0)"
+
+#. module: pmis_vertical_lift
+#: selection:product.product.sync,command:0
+msgid "Rimuovi"
+msgstr "Odstrani"
+
+#. module: pmis_vertical_lift
+#: model_terms:ir.ui.view,arch_db:pmis_vertical_lift.view_picking_form
+msgid "Send to Vertical Lift"
+msgstr "Pošlji v Vertikalno dvigalo"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__serial_number
+msgid "Serial Number"
+msgstr "Serijska številka"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_abstract_sync_base__state
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__state
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__state
+msgid "State"
+msgstr "Stanje"
+
+#. module: pmis_vertical_lift
+#: model:ir.model,name:pmis_vertical_lift.model_stock_picking
+msgid "Transfer"
+msgstr "Premestitev"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__measurement_unit
+msgid "Unità di Misura"
+msgstr "Merske enote"
+
+#. module: pmis_vertical_lift
+#: model:ir.ui.menu,name:pmis_vertical_lift.menu_pmis_vertical_lift
+msgid "Vertical Lift Sync"
+msgstr "Sinhronizacija vertikalnega dvigala"
+
+#. module: pmis_vertical_lift
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_abstract_sync_base__db_id
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_product_product_sync__db_id
+#: model:ir.model.fields,field_description:pmis_vertical_lift.field_stock_picking_move_sync__db_id
+msgid "iD"
+msgstr "iD"
+
+#. module: pmis_vertical_lift
+#: selection:stock.picking.move.sync,list_type:0
+msgid "liste di prelievo"
+msgstr "seznami za umik"
+
+#. module: pmis_vertical_lift
+#: selection:stock.picking.move.sync,list_type:0
+msgid "liste di versamento"
+msgstr "seznami za depozit"

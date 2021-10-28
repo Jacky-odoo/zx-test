@@ -1,0 +1,692 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* website_b2b
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "&amp;nbsp;&amp;nbsp;"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_products_attributes
+msgid "(Clear)"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.portal_layout
+msgid "<b>B2B list view:</b><br/>"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.sale_order_portal_template
+msgid "<i class=\"fa fa-refresh\"/> Reorder"
+msgstr "<i class=\"fa fa-refresh\"/> Razvrščanje"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.portal_my_orders
+msgid "<i class=\"fa fa-refresh\"/>&amp;nbsp;REORDER"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "<i>No products found.</i>"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "<span class=\"fa fa-chevron-left\" role=\"img\" aria-label=\"Previous\" title=\"Previous\"/>"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "<span class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "<span class=\"sr-only\">Sending...</span>"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "<span>Sort by</span>"
+msgstr "<span>Razvrsti po</span>"
+
+#. module: website_b2b
+#: model:mail.template,body_html:website_b2b.inquiry_template
+msgid "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
+"					<tbody>\n"
+"						<tr>\n"
+"							<td align=\"center\">\n"
+"								<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"									<tbody>\n"
+"										<tr>\n"
+"											<td align=\"center\" style=\"min-width: 590px;\">\n"
+"												<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"													<tbody>\n"
+"														<tr>\n"
+"															<td valign=\"middle\"><br>\n"
+"																<span style=\"font-size: 20px; font-weight: bold;\">Website inquiry</span>\n"
+"															</td>\n"
+"															<td valign=\"middle\" align=\"right\">\n"
+"																<img src=\"/logo.png?company=${object.company_id.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${object.company_id.name}\">\n"
+"															</td>\n"
+"														</tr>\n"
+"														<tr>\n"
+"															<td colspan=\"2\" style=\"text-align:center;\">\n"
+"																<hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"															</td>\n"
+"														</tr>\n"
+"													</tbody>\n"
+"												</table>\n"
+"											</td>\n"
+"										</tr>\n"
+"										<tr>\n"
+"											<td align=\"center\" style=\"min-width: 590px;\">\n"
+"												<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"													<tbody>\n"
+"														<tr>\n"
+"															<td valign=\"top\">\n"
+"																<div>\n"
+"																	<div><font style=\"font-size: 16px;\">Hello,</font></div>\n"
+"																	<div><br></div>\n"
+"																	<div><font style=\"font-size: 16px;\">The following inquiry has been submitted:</font><font style=\"font-size: 16px;\"><br></font><font style=\"font-size: 16px;\"><br></font></div>\n"
+"																																	<div>\n"
+"% if len(ctx['name'])\n"
+"<font style=\"color: rgb(99, 99, 99); font-size: 14px;\"><b>Name: </b></font><span style=\"font-size: 16px; font-style: initial; font-variant-ligatures: initial; font-variant-caps: initial; font-weight: initial; text-align: inherit;\">${ctx['name']}</span>\n"
+"% endif\n"
+"</div>\n"
+"																	<div>\n"
+"% if len(ctx['name'])\n"
+"<font style=\"color: rgb(99, 99, 99); font-size: 14px;\"><b>Email: </b></font><font style=\"font-size: 16px;\">${ctx['email']}</font>\n"
+"% endif\n"
+"</div>\n"
+"																	<div><br></div>\n"
+"																	<div><font style=\"color: rgb(99, 99, 99); font-size: 14px;\"><b>Product:</b><br></font><font style=\"font-size: 16px;\">${ctx['product_name']}</font></div>\n"
+"																	<div><font style=\"font-size: 16px;\">${ctx['product_barcode']}</font></div>\n"
+"																	<div><br></div>\n"
+"																	<div><font style=\"color: rgb(99, 99, 99); font-size: 14px;\"><b>Quantity: </b></font><font style=\"font-size: 16px;\">${ctx['qty']}</font></div>																	<div><br></div>\n"
+"																	<div>\n"
+"% if len(ctx['msg'])\n"
+"<font style=\"color: rgb(99, 99, 99); font-size: 14px;\"><b>Message:</b></font><font style=\"color: rgb(99, 99, 99); font-size: 14px;\"><b><br></b></font><font style=\"color: rgb(99, 99, 99); font-size: 14px;\"><b><br></b></font><font style=\"font-size: 16px;\">${ctx['msg'] | safe}</font>\n"
+"% endif\n"
+"</div>\n"
+"																	<div><br></div>\n"
+"																	<div><br></div>\n"
+"																	<div><font style=\"font-size: 16px;\">Regards,</font></div>\n"
+"																	<div><font style=\"font-size: 16px;\">${user.signature | safe}</font></div>\n"
+"																</div>\n"
+"															</td>\n"
+"														</tr>\n"
+"														<tr>\n"
+"															<td style=\"text-align:center;\">\n"
+"																<hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\">\n"
+"															</td>\n"
+"														</tr>\n"
+"													</tbody>\n"
+"												</table>\n"
+"											</td>\n"
+"										</tr>\n"
+"										<tr>\n"
+"											<td align=\"center\" style=\"min-width: 590px;\">\n"
+"												<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"border-collapse: separate; min-width: 590px; font-size: 11px; padding: 0px 8px;\">\n"
+"													<tbody>\n"
+"														<tr>\n"
+"															<td valign=\"middle\" align=\"left\">${object.company_id.name}</td>\n"
+"														</tr>\n"
+"														<tr>\n"
+"															<td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
+"																${object.company_id.phone}\n"
+"																% if object.company_id.email\n"
+"																| <a href=\"'mailto:%s' % ${object.company_id.email}\" style=\" color: #454748;\">${object.company_id.email}</a>\n"
+"																% endif\n"
+"																% if object.company_id.website\n"
+"																| <a href=\"'%s' % ${object.company_id.website}\" style=\" color: #454748;\">\n"
+"																	${object.company_id.website}\n"
+"																</a>\n"
+"																% endif\n"
+"															</td>\n"
+"														</tr>\n"
+"													</tbody>\n"
+"												</table>\n"
+"											</td>\n"
+"										</tr>\n"
+"									</tbody>\n"
+"								</table>\n"
+"							</td>\n"
+"						</tr>\n"
+"						<!-- POWERED BY -->\n"
+"						<tr>\n"
+"							<td align=\"center\" style=\"min-width: 590px;\">\n"
+"								<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
+"									<tbody>\n"
+"										<tr>\n"
+"											<td style=\"text-align: center; font-size: 13px;\">\n"
+"												Powered by <a target=\"_blank\" href=\"https://www.odoo.com?utm_source=db&amp;utm_medium=auth\" style=\"color: #875A7B;\">Odoo</a>\n"
+"											</td>\n"
+"										</tr>\n"
+"									</tbody>\n"
+"								</table>\n"
+"							</td>\n"
+"						</tr>\n"
+"					</tbody>\n"
+"				</table>\n"
+"			"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_accessories
+msgid "Accessories:"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_accessories
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_alternatives
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Add"
+msgstr "Dodaj"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_accessories
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_alternatives
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Add one"
+msgstr "Dodajte ga"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Add to Cart"
+msgstr "Dodaj v voziček"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "Add to cart"
+msgstr "Dodaj v voziček"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "All products"
+msgstr "Vsi izdelki"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_alternatives
+msgid "Alternatives:"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "Attributes"
+msgstr "Lastnosti"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.res_config_settings_view_form
+#: model:website.menu,name:website_b2b.menu_b2b
+msgid "B2B"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_is_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_is_b2b
+msgid "B2B Portal"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_product_categories
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_product_categories
+msgid "B2B Product Categories"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_partner__stb2b_list_view
+#: model:ir.model.fields,field_description:website_b2b.field_res_users__stb2b_list_view
+#: model_terms:ir.ui.view,arch_db:website_b2b.portal_my_details
+msgid "B2B list view"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_partner__stb2b_hide_empty_categories
+#: model:ir.model.fields,field_description:website_b2b.field_res_users__stb2b_hide_empty_categories
+msgid "B2b: Hide empty categories"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Barcode"
+msgstr "Črtna koda"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Barcode - A to Z"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Barcode - Z to A"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_barcode
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_barcode
+msgid "Barcode in product list"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.login
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Become a Partner"
+msgstr "Postanite B2B kupec"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Cancel"
+msgstr "Preklic"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "Categories"
+msgstr "Kategorije"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "City"
+msgstr "Mesto"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Close"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Company Name"
+msgstr "Naziv podjetja"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Company Name *"
+msgstr "Naziv podjetja *"
+
+#. module: website_b2b
+#: model:ir.model,name:website_b2b.model_res_config_settings
+msgid "Config Settings"
+msgstr "Nastavitve"
+
+#. module: website_b2b
+#: model:ir.model,name:website_b2b.model_res_partner
+msgid "Contact"
+msgstr "Stik"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Country"
+msgstr "Država"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Email"
+msgstr "E-pošta"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Email *"
+msgstr "E-naslov*"
+
+#. module: website_b2b
+#: model:ir.model,name:website_b2b.model_mail_thread
+msgid "Email Thread"
+msgstr "E-poštna nit"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Email*:"
+msgstr ""
+
+#. module: website_b2b
+#. openerp-web
+#: code:addons/website_b2b/static/src/xml/website.backend.xml:7
+#: model_terms:ir.ui.view,arch_db:website_b2b.res_config_settings_view_form_go_to
+#, python-format
+msgid "Go to B2B Portal"
+msgstr ""
+
+#. module: website_b2b
+#. openerp-web
+#: code:addons/website_b2b/static/src/xml/website.backend.xml:4
+#, python-format
+msgid "Go to Website"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.portal_my_details
+msgid "Hide empty categories"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_inquiry_mail_template
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_inquiry_mail_template
+msgid "Inquiry Mail Template"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Inquiry sent.<br/>Thank you."
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Internal reference"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Internal reference - A to Z"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Internal reference - Z to A"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_default_code
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_default_code
+msgid "Internal reference in product list"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_product_category__stb2b_image_medium
+msgid "Medium-sized image"
+msgstr "Srednje velika slika"
+
+#. module: website_b2b
+#: model:ir.model.fields,help:website_b2b.field_product_category__stb2b_image_medium
+msgid "Medium-sized image of the category. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Slika kategorije srednje velikosti. Samodejno bo spremenjena v sliko 128x128, v ustreznem razmerju. Uporabite to polje v načinu prikaza obrazec ali kanban."
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "Name"
+msgstr "Naziv"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Name *"
+msgstr "Ime in priimek*"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "Name - A to Z"
+msgstr "Ime - A do Z"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "Name - Z to A"
+msgstr "Ime - Z do A"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Name*:"
+msgstr ""
+
+#. module: website_b2b
+#. openerp-web
+#: code:addons/website_b2b/static/src/xml/website.backend.xml:13
+#, python-format
+msgid "On B2B"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Phone"
+msgstr "Telefon"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Price"
+msgstr "Cena"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Price: High to Low"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Price: Low to High"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model,name:website_b2b.model_product_product
+msgid "Product"
+msgstr "Izdelek"
+
+#. module: website_b2b
+#: model:ir.model,name:website_b2b.model_product_category
+msgid "Product Category"
+msgstr "Kategorija izdelka"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Product Name"
+msgstr "Ime Izdelka"
+
+#. module: website_b2b
+#: model:ir.model,name:website_b2b.model_product_template
+msgid "Product Template"
+msgstr "Predloga izdeleka"
+
+#. module: website_b2b
+#. openerp-web
+#: code:addons/website_b2b/static/src/js/backend/button.js:43
+#, python-format
+msgid "Published"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_product_category__stb2b_published
+msgid "Published in B2B"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_product_product__stb2b_published
+#: model:ir.model.fields,field_description:website_b2b.field_product_template__stb2b_published
+msgid "Published on B2B"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Quantity*:"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Question <small><i>(optional)</i></small>:"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.portal_my_orders
+msgid "REORDER"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_accessories
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_alternatives
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Remove one"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.sale_order_portal_template
+msgid "Reorder"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_reqlogin
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_reqlogin
+msgid "Request log in"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "SEND INQUIRY"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model,name:website_b2b.model_sale_order
+msgid "Sale Order"
+msgstr "Prodajni nalog"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Send"
+msgstr "Pošlji"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_accessories
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_alternatives
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Send inquiry"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_send_quote_pm
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_send_quote_pm
+msgid "Send quotation to purchasing manager"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_send_quote_salesperson
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_send_quote_salesperson
+msgid "Send quotation to salesperson"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.website_b2b_inquiry_modal
+msgid "Sending..."
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.products
+msgid "Shop"
+msgstr "Trgovina"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "Sorting by :"
+msgstr "Razvrščanje po:"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "State"
+msgstr "Stanje"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Street"
+msgstr "Ulica"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Submit"
+msgstr "Predloži"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.portal_my_details
+msgid "Table"
+msgstr "Razpredelnica"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Tax ID"
+msgstr "Davčna ID"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "Thank you!<br/>We will be contacting you shortly."
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "This product is no longer available."
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.portal_my_details
+msgid "Thumbnails"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_root
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_webroot
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_root
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_webroot
+msgid "Top category"
+msgstr "Glavna kategorija"
+
+#. module: website_b2b
+#. openerp-web
+#: code:addons/website_b2b/static/src/js/backend/button.js:43
+#, python-format
+msgid "Unpublished"
+msgstr ""
+
+#. module: website_b2b
+#: model:ir.model.fields,field_description:website_b2b.field_res_config_settings__stb2b_product_list_variants
+#: model:ir.model.fields,field_description:website_b2b.field_website__stb2b_product_list_variants
+msgid "Variants in product list"
+msgstr "Različice na seznamu izdelkov"
+
+#. module: website_b2b
+#: model:ir.model,name:website_b2b.model_website
+msgid "Website"
+msgstr "Spletna stran"
+
+#. module: website_b2b
+#: model:mail.template,subject:website_b2b.inquiry_template
+msgid "Website inquiry for ${ctx['product_name']}"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_become_partner
+msgid "ZIP"
+msgstr "Poštna številka"
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_categories2
+msgid "breadcrumb"
+msgstr ""
+
+#. module: website_b2b
+#: model_terms:ir.ui.view,arch_db:website_b2b.snippet_product
+msgid "ml-2"
+msgstr ""
+

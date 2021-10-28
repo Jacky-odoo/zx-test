@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* crm_project_task
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: crm_project_task
+#: model_terms:ir.ui.view,arch_db:crm_project_task.view_task_form2
+msgid "<span class=\"o_stat_text\">Convert To</span>\n"
+"            <span class=\"o_stat_text\">Lead</span>"
+msgstr "<span class=\"o_stat_text\">Pretvori v</span>\n"
+"            <span class=\"o_stat_text\">indic</span>"
+
+#. module: crm_project_task
+#: model_terms:ir.ui.view,arch_db:crm_project_task.crm_case_form_view_oppor
+msgid "<span class=\"o_stat_text\">Convert To</span>\n"
+"            <span class=\"o_stat_text\">Task</span>"
+msgstr "<span class=\"o_stat_text\">Pretvori v</span>\n"
+"            <span class=\"o_stat_text\">opravilo</span>"
+
+#. module: crm_project_task
+#: model_terms:ir.ui.view,arch_db:crm_project_task.project_task_convert2lead_view_form
+msgid "Cancel"
+msgstr "Preklic"
+
+#. module: crm_project_task
+#: model_terms:ir.ui.view,arch_db:crm_project_task.project_task_convert2lead_view_form
+msgid "Convert this Task to a Lead?"
+msgstr "Naj pretvorim to opravilo v indic?"
+
+#. module: crm_project_task
+#: model:ir.actions.act_window,name:crm_project_task.project_task_convert2lead_action
+#: model_terms:ir.ui.view,arch_db:crm_project_task.view_task_form2
+msgid "Convert to Lead"
+msgstr "Pretvori v indic"
+
+#. module: crm_project_task
+#: model_terms:ir.ui.view,arch_db:crm_project_task.crm_case_form_view_oppor
+#: model_terms:ir.ui.view,arch_db:crm_project_task.project_task_convert2lead_view_form
+msgid "Convert to Task"
+msgstr "Pretvori v opravilo"
+
+#. module: crm_project_task
+#: model_terms:ir.ui.view,arch_db:crm_project_task.project_task_convert2lead_view_form
+msgid "Create Lead"
+msgstr "Ustvari indic"
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead__create_uid
+msgid "Created by"
+msgstr "Ustvaril"
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead__create_date
+msgid "Created on"
+msgstr "Ustvarjeno"
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead__partner_id
+msgid "Customer"
+msgstr "Stranka"
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead__display_name
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead__id
+msgid "ID"
+msgstr ""
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead____last_update
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji posodobil"
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead__write_date
+msgid "Last Updated on"
+msgstr "Zadnjič posodobljeno"
+
+#. module: crm_project_task
+#: model:ir.model,name:crm_project_task.model_crm_partner_binding
+msgid "Partner linking/binding in CRM wizard"
+msgstr "Povezave s partnerjem v CRM čarovniku"
+
+#. module: crm_project_task
+#: model:ir.model.fields,field_description:crm_project_task.field_project_task_convert2lead__task_id
+msgid "Task"
+msgstr "Opravilo"
+
+#. module: crm_project_task
+#: model:ir.model,name:crm_project_task.model_project_task_convert2lead
+msgid "Task convert to Lead"
+msgstr "Pretvori opravilo v indic"
+
+#. module: crm_project_task
+#: code:addons/crm_project_task/wizard/project_task_convert2lead.py:74
+#, python-format
+msgid "This lead has been converted from a <a href=%s/web#id=%s&amp;view_type=form&amp;model=project.task>task.</a> "
+msgstr "Ta indic je bil pretvorjen iz <a href=%s/web#id=%s&amp;view_type=form&amp;model=project.task>opravila.</a> "
+
+#. module: crm_project_task
+#: code:addons/crm_project_task/wizard/crm_lead_convert2task.py:51
+#, python-format
+msgid "This lead has been converted into a <a href=%s/web#id=%s&amp;view_type=form&amp;model=project.task>task</a> All attachments are at the new location."
+msgstr "Ta indic je bil pretvorjen v <a href=%s/web#id=%s&amp;view_type=form&amp;model=project.task>opravilo</a> Vse priponke so na novi lokaciji."
+
+#. module: crm_project_task
+#: code:addons/crm_project_task/wizard/project_task_convert2lead.py:64
+#, python-format
+msgid "This task has been converted into a <a href=%s/web#id=%s&amp;view_type=form&amp;model=crm.lead>lead.</a> All attachments are at the new location."
+msgstr "To opravilo je bilo pretvorjeno v <a href=%s/web#id=%s&amp;view_type=form&amp;model=crm.lead>indic.</a> Vse priloge so na novi lokaciji."
+
+#. module: crm_project_task
+#: model_terms:ir.ui.view,arch_db:crm_project_task.project_task_convert2lead_view_form
+msgid "or"
+msgstr "ali"
+

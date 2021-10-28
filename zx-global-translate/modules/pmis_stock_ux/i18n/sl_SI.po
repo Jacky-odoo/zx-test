@@ -1,0 +1,584 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* pmis_stock_ux
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pmis_stock_ux
+#: sql_constraint:stock.warehouse.orderpoint:0
+msgid "An orderpoint already exists for the same company, same warehouse, same stock location and same product."
+msgstr "Točka naročanja za isto podjetje, isto skladišče, isto lokacijo zaloge in isti izdelek že obstaja."
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.purchase_order_line_search
+msgid "Analytic Account"
+msgstr "Analitični račun"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_picking_form
+msgid "Are you sure you want to cancel this picking?"
+msgstr "Ali res želite preklicati to dobavnico?"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.purchase_order_form
+msgid "Are you sure you want to cancel this purchase order?"
+msgstr "Ste prepričani, da želite preklicati ta nabavni nalog?"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_inventory_form
+msgid "Are you sure you want to reset all quantities to 0 ?"
+msgstr "Ste prepričani, da želite ponastaviti vse količine na 0?"
+
+#. module: pmis_stock_ux
+#: selection:stock.picking,move_type:0
+msgid "As soon as possible"
+msgstr "Takoj, ko bo mogoče"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_picking_batch
+msgid "Batch Picking"
+msgstr "Zbirnik dobavnic"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_purchase_order_filter
+msgid "Billing Status"
+msgstr "Status obračuna"
+
+#. module: pmis_stock_ux
+#: selection:res.partner,picking_warn:0
+#: selection:res.partner,purchase_warn:0
+msgid "Blocking Message"
+msgstr "Sporočilo ob blokadi"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log__company_id
+msgid "Company"
+msgstr "Družba"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_sale_order__picking_status
+msgid "Compute the picking status for the SO:\n"
+"  - no: if the SO is not in status 'sale' nor 'done', we consider that there is nothing to deliver. This is also the default value if the conditions of no other status is met.\n"
+"  - cancel: all pickings are cancelled.\n"
+"  - delivered: if all  pickings are done or cancel\n"
+"  - partially_delivered: If at least one picking is done.\n"
+"  - to_deliver: if all pickings are in confirmed, assigned, waiting or cancel state.\n"
+""
+msgstr "Obdelava statusa dobavnice za prodajni nalog:\n"
+"  - ne: će prodajni nalog niti v 'prodaja' niti v 'nabava', smatramo, da ni ničesar za dobaviti. To je tudi privzeta vrednost, če niso izpolnjeni pogoji za noben drug status naročila.\n"
+"  - preklic: vse dobavnice so preklicane.\n"
+"  - dobavljeno: vse dobavnice so opravljene ali preklicane.\n"
+"  - delno_dobavljeno: vsaj ena dobavnica je opravljena.\n"
+"  - za_dobavo: vse dobavnice so potrjene, dodeljene, v čakanju ali preklicane.\n"
+""
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_res_partner
+msgid "Contact"
+msgstr "Stik"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log__create_uid
+msgid "Created by"
+msgstr "Ustvaril"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log__create_date
+msgid "Created on"
+msgstr "Ustvarjeno"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_picking_internal_search
+msgid "Date Done"
+msgstr "Datum dokončanja"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_res_users__context_default_warehouse_id
+msgid "Default Warehouse"
+msgstr "Privzeto skladišče"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_res_users__context_default_warehouse_id
+msgid "Default warehouse for sale orders and purchase orders"
+msgstr "Privzeto skladišče za prodajne in nabavne naloge"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__picking_type_id
+msgid "Deliver To"
+msgstr "Dobavi na"
+
+#. module: pmis_stock_ux
+#: selection:sale.order,picking_status:0
+msgid "Delivery Cancelled"
+msgstr "Dobava preklicana"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__delivery_partner_id
+msgid "Delivery Partner"
+msgstr "Prejemnik dobave"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log__display_name
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__dest_address_id
+msgid "Drop Ship Address"
+msgstr "Drop Ship naslov"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_picking__external_ref
+msgid "External Reference"
+msgstr "Zunanji sklic"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__fiscal_position_id
+msgid "Fiscal Position"
+msgstr "Davčno območje"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_sales_order_filter
+#: selection:sale.order,picking_status:0
+msgid "Fully Delivered"
+msgstr "Polno dobavljeno"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_location_search
+msgid "Group By"
+msgstr "Združi po"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log__id
+msgid "ID"
+msgstr ""
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_stock_quantity_history__location_id
+msgid "If you select a stock location, the inventory report will be for this stock location and its children locations. If you leave this field empty, the inventory report will be for all the internal stock locations."
+msgstr "Če izberete lokacijo zaloge, bo poročilo o inventarju veljalo za to lokacijo zaloge in njej podrejene lokacije. Če pustite prazno, bo poročilo o inventarju zajemalo vse interne lokacije zalog."
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__incoterm_id
+msgid "Incoterm"
+msgstr ""
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_sale_order__incoterm
+msgid "Incoterms"
+msgstr ""
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_purchase_order__incoterm_id
+#: model:ir.model.fields,help:pmis_stock_ux.field_sale_order__incoterm
+msgid "International Commercial Terms are a series of predefined commercial terms used in international transactions."
+msgstr "Mednarodni pogoji (INCOTERMS) so v naprej določeni komercialni pogoji, ki se uporabljajo pri mednarodnih prevozih."
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_location_route
+msgid "Inventory Routes"
+msgstr "Poti inventarja"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_stock_picking__move_type
+msgid "It specifies goods to be deliver partially or all at once"
+msgstr "Določa ali bo blago dobavljeno delno ali v celoti"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log____last_update
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji posodobil"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log__write_date
+msgid "Last Updated on"
+msgstr "Zadnjič posodobljeno"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_location_search
+msgid "Location Type"
+msgstr "Vrsta lokacije"
+
+#. module: pmis_stock_ux
+#: model:ir.ui.menu,name:pmis_stock_ux.stock_location_menu
+msgid "Locations"
+msgstr "Lokacije"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_procurement_scheduler_log
+msgid "Logs of the Procurement Scheduler"
+msgstr "Dnevniki razporejevalnika za oskrbovanje"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_production_lot
+msgid "Lot/Serial"
+msgstr "Lot/Serijska št."
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_warehouse_orderpoint
+msgid "Minimum Inventory Rule"
+msgstr "Pravilo minimalne zaloge"
+
+#. module: pmis_stock_ux
+#: selection:res.partner,picking_warn:0
+#: selection:res.partner,purchase_warn:0
+msgid "No Message"
+msgstr "Brez sporočila"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_sales_order_filter
+msgid "Not Fully Delivered"
+msgstr "Ne povsem dobavljeno"
+
+#. module: pmis_stock_ux
+#: selection:sale.order,picking_status:0
+msgid "Nothing to Deliver"
+msgstr "Ni kaj dobaviti"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_picking__picking_type_id
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_picking_type__name
+msgid "Operation Type"
+msgstr "Tip operacije"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.report_batch_picking
+msgid "Order References:"
+msgstr "Sklici na naročila:"
+
+#. module: pmis_stock_ux
+#: selection:sale.order,picking_status:0
+msgid "Partially Delivered"
+msgstr "Delno dobavljeno"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_picking__partner_id
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_picking_internal_search
+msgid "Partner"
+msgstr ""
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__payment_term_id
+msgid "Payment Terms"
+msgstr "Plačilni pogoji"
+
+#. module: pmis_stock_ux
+#: code:addons/pmis_stock_ux/models/stock.py:33
+#, python-format
+msgid "Picking <b>unreserved</b>."
+msgstr "Dobavnica <b>ni rezervirana</b>."
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_sale_order__picking_status
+msgid "Picking State"
+msgstr "Stanje dobavnice"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_picking_type
+msgid "Picking Type"
+msgstr "Tip zbirnika"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_group__picking_ids
+msgid "Pickings"
+msgstr "Zbirniki"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.purchase_order_form
+msgid "Print Order"
+msgstr "Natisni nalog"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_picking_form
+msgid "Processing Date"
+msgstr "Datum obdelave"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_procurement_group
+msgid "Procurement Group"
+msgstr "Oskrbovalna skupina"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_product_product
+msgid "Product"
+msgstr "Izdelek"
+
+#. module: pmis_stock_ux
+#: code:addons/pmis_stock_ux/models/stock.py:165
+#: code:addons/pmis_stock_ux/models/stock.py:189
+#, python-format
+msgid "Product <a href=# data-oe-model=product.product data-oe-id=%d>%s</a> qty %s %s <b>unreserved</b>"
+msgstr "Izdelek <a href=# data-oe-model=product.product data-oe-id=%d>%s</a> qty %s %s <b>ni več rezerviran</b>"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "Premiki izdeleka (postavka premika zaloge)"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_product_template
+msgid "Product Template"
+msgstr "Predloga izdeleka"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.stock_batch_picking_form
+msgid "Purchase"
+msgstr "Nabava"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_purchase_order
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_res_partner__purchase_warn
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_res_users__purchase_warn
+msgid "Purchase Order"
+msgstr "Nabavni nalog"
+
+#. module: pmis_stock_ux
+#: model:ir.actions.act_window,name:pmis_stock_ux.purchase_order_line_action
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.purchase_order_line_pivot
+msgid "Purchase Order Lines"
+msgstr "Postavke nabavnega naloga"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_picking_batch__purchase_order_ids
+msgid "Purchase Orders"
+msgstr "Nabavni nalogi"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_location_search
+msgid "Put Away Strategy"
+msgstr "Strategija skladiščenja"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_purchase_order__dest_address_id
+msgid "Put an address if you want to deliver directly from the vendor to the customer. Otherwise, keep empty to deliver to your own company."
+msgstr "Postavite naslov, če želite dostavo neposredno od dobavitelja do kupca. Drugače pustite prazno, da bo dostavljeno vaši družbi."
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_move__quantity_todo
+msgid "Qty. to do"
+msgstr "Ostaja odprto"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_production_lot__product_qty
+msgid "Quantity"
+msgstr "Količina"
+
+#. module: pmis_stock_ux
+#: model:ir.actions.act_window,name:pmis_stock_ux.stock_quant_action
+#: model:ir.model,name:pmis_stock_ux.model_stock_quant
+#: model:ir.ui.menu,name:pmis_stock_ux.stock_quant_menu
+msgid "Quants"
+msgstr "Kvanti"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_purchase_order__partner_ref
+msgid "Reference of the sales order or bid sent by the vendor. It's used to do the matching when you receive the products as this reference is usually written on the delivery order sent by your vendor."
+msgstr "Sklic na prodajni nalog ali predračun poslan s strani dobavitelja. Uporablja se za primerjavo ob prejemu izdelekov, saj je ta sklic običajno zapisan na dobavnici poslani s strani vašega dobavitelja."
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_purchase_order_filter
+msgid "Reference or Origin"
+msgstr "Sklic: ali vir"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.stock_batch_picking_form
+msgid "References"
+msgstr "Sklici"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_location_search
+msgid "Removal Strategy"
+msgstr "Strategija umika"
+
+#. module: pmis_stock_ux
+#: model:ir.actions.act_window,name:pmis_stock_ux.location_open_orderpoint
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_location_form
+msgid "Reordering Rules"
+msgstr "Pravila preurejanja"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_stock_quant_form
+msgid "Reservations"
+msgstr "Rezervacije"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_move_line_tree
+msgid "Reserved Qty"
+msgstr "Rezervirana kol"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_location_route__name
+msgid "Route"
+msgstr "Proga"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_warehouse
+msgid "Routes"
+msgstr "Proge"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_sale_order
+msgid "Sale Order"
+msgstr "Prodajni nalog"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_picking_batch__sale_order_ids
+msgid "Sale Orders"
+msgstr "Prodajni nalogi"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.stock_batch_picking_form
+msgid "Sales"
+msgstr "Prodaje"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.procurement_scheduler_log_tree
+msgid "Scheduler End Time"
+msgstr "Čas dokončanja na razporejevalniku"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.procurement_scheduler_log_tree
+msgid "Scheduler Executed by"
+msgstr "Razporejevalnik je zagnal"
+
+#. module: pmis_stock_ux
+#: model:ir.actions.act_window,name:pmis_stock_ux.procurement_scheduler_log_action
+#: model:ir.ui.menu,name:pmis_stock_ux.procurement_scheduler_log_menu
+msgid "Scheduler Logs"
+msgstr "Dnevniki razporejevalnika"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_res_partner__picking_warn
+#: model:ir.model.fields,help:pmis_stock_ux.field_res_partner__purchase_warn
+#: model:ir.model.fields,help:pmis_stock_ux.field_res_users__picking_warn
+#: model:ir.model.fields,help:pmis_stock_ux.field_res_users__purchase_warn
+msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
+msgstr "Izbira možnosti \"Opozorilo\" uporabnika obvesti s sporočilom. Izbira \"Sporočila ob blokadi\" povzroči izjemo, izpiše sporočilo in zaustavi potek. Sporočilo je potrebno zapisati v naslednje polje."
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_picking__move_type
+msgid "Shipping Policy"
+msgstr "Pravila odpošiljanja"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_procurement_scheduler_log__start_datetime
+msgid "Start Date"
+msgstr "Datum začetka"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_quantity_history__location_id
+msgid "Stock Location"
+msgstr ""
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_move
+msgid "Stock Move"
+msgstr "Premik zaloge"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_res_partner__picking_warn
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_res_users__picking_warn
+msgid "Stock Picking"
+msgstr "Prejemnica"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_quantity_history
+msgid "Stock Quantity History"
+msgstr "Zgodovina količin zalog"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_purchase_order__picking_type_id
+msgid "This will determine operation type of incoming shipment"
+msgstr "To določi tip operacije vhodne pošiljke"
+
+#. module: pmis_stock_ux
+#: selection:sale.order,picking_status:0
+msgid "To Deliver"
+msgstr "Za dobaviti"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_stock_picking
+msgid "Transfer"
+msgstr "Premestitev"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.stock_picking_pivot
+msgid "Transfers"
+msgstr "Premestitve"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_stock_picking__picking_type_code
+msgid "Type of Operation"
+msgstr "Tip operacije"
+
+#. module: pmis_stock_ux
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_move_line_tree
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_move_picking_form
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_move_tree
+#: model_terms:ir.ui.view,arch_db:pmis_stock_ux.view_picking_form
+msgid "Unreserve"
+msgstr "Umik rezervacije"
+
+#. module: pmis_stock_ux
+#: model:ir.model,name:pmis_stock_ux.model_res_users
+msgid "Users"
+msgstr "Uporabniki"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__partner_id
+msgid "Vendor"
+msgstr "Dobavitelj"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_purchase_order__partner_ref
+msgid "Vendor Reference"
+msgstr "Sklic dobavitelja"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,field_description:pmis_stock_ux.field_sale_order__warehouse_id
+msgid "Warehouse"
+msgstr "Skladišče"
+
+#. module: pmis_stock_ux
+#: selection:res.partner,picking_warn:0
+#: selection:res.partner,purchase_warn:0
+msgid "Warning"
+msgstr "Opozorilo"
+
+#. module: pmis_stock_ux
+#: selection:stock.picking,move_type:0
+msgid "When all products are ready"
+msgstr "Ko so vsi izdelki pripravljeni"
+
+#. module: pmis_stock_ux
+#: model:ir.model.fields,help:pmis_stock_ux.field_purchase_order__partner_id
+msgid "You can find a vendor by its Name, TIN, Email or Internal Reference."
+msgstr "Dobavitelja lahko najdete po imenu, davčni številki, email naslovu ali internem sklicu."
+
+#. module: pmis_stock_ux
+#: code:addons/pmis_stock_ux/models/stock.py:183
+#, python-format
+msgid "You cannot unreserve a move line in done state."
+msgstr "Vknjižbi v stanju opravljeno ne morete umakniti rezervacije."
+

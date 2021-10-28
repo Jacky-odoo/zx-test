@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* pmis_sale_order_merge
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pmis_sale_order_merge
+#: model_terms:ir.ui.view,arch_db:pmis_sale_order_merge.view_merge_sale_line
+msgid "Cancel"
+msgstr "Preklic"
+
+#. module: pmis_sale_order_merge
+#: selection:merge.sale.order,merge_type:0
+msgid "Create new order and cancel all selected sale orders"
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: selection:merge.sale.order,merge_type:0
+msgid "Create new order and delete all selected sale orders"
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order__create_uid
+msgid "Created by"
+msgstr "Ustvaril"
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order__create_date
+msgid "Created on"
+msgstr "Ustvarjeno"
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order__display_name
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji posodobil"
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order__write_date
+msgid "Last Updated on"
+msgstr "Zadnjič posodobljeno"
+
+#. module: pmis_sale_order_merge
+#: model:ir.actions.act_window,name:pmis_sale_order_merge.action_view_merge_sale_line
+#: model_terms:ir.ui.view,arch_db:pmis_sale_order_merge.view_merge_sale_line
+msgid "Merge Orders"
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order__merge_type
+msgid "Merge Type"
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: selection:merge.sale.order,merge_type:0
+msgid "Merge order on existing selected order and cancel others"
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: selection:merge.sale.order,merge_type:0
+msgid "Merge order on existing selected order and delete others"
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: code:addons/pmis_sale_order_merge/wizard/merge_sale_order_wizard.py:67
+#, python-format
+msgid "Please select Sale orders which are in Quotation state to perform the Merge Operation."
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: code:addons/pmis_sale_order_merge/wizard/merge_sale_order_wizard.py:73
+#, python-format
+msgid "Please select Sale orders whose Customers are same to  perform the Merge Operation."
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: code:addons/pmis_sale_order_merge/wizard/merge_sale_order_wizard.py:62
+#, python-format
+msgid "Please select atleast two sale orders to perform the Merge Operation."
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: model:ir.model.fields,field_description:pmis_sale_order_merge.field_merge_sale_order__sale_order_id
+msgid "Sale Order"
+msgstr "Prodajni nalog"
+
+#. module: pmis_sale_order_merge
+#: model_terms:ir.ui.view,arch_db:pmis_sale_order_merge.view_merge_sale_line
+msgid "Sale Order Merge"
+msgstr ""
+
+#. module: pmis_sale_order_merge
+#: model:ir.model,name:pmis_sale_order_merge.model_merge_sale_order
+msgid "Sale order merging"
+msgstr ""
+

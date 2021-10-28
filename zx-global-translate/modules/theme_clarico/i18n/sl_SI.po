@@ -1,0 +1,2163 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* theme_clarico
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_7
+msgid "\"Lorem ipsum dolor sit amet, eam et reque justo quidam, te est 											 audire persius. Duis meis quas vim ex\""
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_4
+msgid "#Lorem"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_4
+msgid "#Lorem ipsum sit"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_orders_custom
+msgid "&amp;nbsp;"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "(+612) 2531 5600"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_categories_ept
+msgid "(Clear All)"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_brand_attribute
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_attributes_ept
+msgid "(Clear)"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.website_pricefilter_ept
+msgid "(Reset)"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customers_carousel_1
+msgid "-Lorem"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_blocks
+msgid "2169"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_clarico
+msgid "3 Columns"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.404_ept
+msgid "404"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_tabs_ept
+msgid "<b>Lorem ipsum dolor phaedrum</b> Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea. Usu bonorum inermis efficiantur ad, nec at detracto repudiandae, erat denique percipit at est."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_tabs_ept
+msgid "<b>Lorem ipsum dolor sit amet, eam et reque justo quidam, Duis meis quas vim ex,</b> Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_text_block
+msgid "<b>Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius.</b> Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea,"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_text_block
+msgid "<b>Lorem ipsum dolor sit amet.</b> Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea. Usu bonorum inermis efficiantur ad, nec at detracto repudiandae, erat denique percipit at est."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_call_to_action_ept
+msgid "<b>My</b> Heading 3"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_banner_ept
+msgid "<font>Lorem ipsum dolor sit amet, eam viris essent dissentiet at</font>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_brand_attribute
+msgid "<i class=\"down-arrow fa fa-caret-right\"/>\n"
+"                            <span>Brand</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_s_card_ept
+msgid "<i class=\"fa fa-1x fa-clock-o mr8\"/><small>2 Lorem sit</small>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.picture_ept
+msgid "<i class=\"fa fa-1x fa-picture-o mr-2\"/>Add a caption to enhance the meaning of this image."
+msgstr "<i class=\"fa fa-1x fa-picture-o mr-2\"/>Za izboljšanje pomena slike dodajte opis."
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_ept
+msgid "<i class=\"fa fa-align-left\"/>\n"
+"                Categories"
+msgstr "<i class=\"fa fa-align-left\"/>\n"
+"                Kategorije"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.website_pricefilter_ept
+msgid "<i class=\"fa fa-caret-right\"/>\n"
+"				  		<span class=\"m-0\">Price range</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.timer_snippet_snippet_options
+msgid "<i class=\"fa fa-clock-o\"/>\n"
+"						Modify Time"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_categories_ept
+msgid "<i class=\"fa fa-filter mr-1\"/>\n"
+"                Quick Filter"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_orders_custom
+msgid "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Done\" title=\"Done\"/>Done"
+msgstr "<i class=\"fa fa-fw fa-check\" role=\"img\" aria-label=\"Done\" title=\"Done\"/>Končano"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_quotations_custom
+msgid "<i class=\"fa fa-fw fa-clock-o\"/>\n"
+"                            Expired"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_quotations_custom
+msgid "<i class=\"fa fa-fw fa-remove\"/>\n"
+"                            Cancelled"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+msgid "<i class=\"fa fa-heart\"/><span>Wishlist</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "<i class=\"fa fa-magic\"/>\n"
+"						Animations"
+msgstr "<i class=\"fa fa-magic\"/>\n"
+"						Animacije"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_four_template
+msgid "<i class=\"fa fa-shopping-cart mr4\"/>\n"
+"															Add to Cart"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_four_template
+msgid "<i class=\"fa fa-shopping-cart mr4\"/>\n"
+"															Add to cart"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_wishlist_ept
+msgid "<i class=\"fa fa-shopping-cart mr4\"/>Add\n"
+"									<span class=\"d-none d-md-inline\">to Cart</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+msgid "<i class=\"fa fa-shopping-cart\"/><span>My Cart</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_wishlist_ept
+msgid "<i class=\"fa fa-trash-o mr4\"/>\n"
+"										Remove"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_invoices_custom
+msgid "<span class=\"badge badge-pill badge-info\">\n"
+"                                <i class=\"fa fa-fw fa-clock-o\" aria-label=\"Opened\" title=\"Opened\" role=\"img\"/>\n"
+"                                <span class=\"d-md-inline\">Waiting for Payment</span>\n"
+"                            </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_invoices_custom
+msgid "<span class=\"badge badge-pill badge-success\">\n"
+"                                <i class=\"fa fa-fw fa-check\" aria-label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
+"                                <span class=\"d-md-inline\">Paid</span>\n"
+"                            </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_invoices_custom
+msgid "<span class=\"badge badge-pill badge-warning\">\n"
+"                                <i class=\"fa fa-fw fa-remove\" aria-label=\"Cancelled\" title=\"Cancelled\" role=\"img\"/>\n"
+"                                <span class=\"d-md-inline\">Cancelled</span>\n"
+"                            </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+msgid "<span class=\"carousel-control-next-icon te_arrow_top\"/>\n"
+"                <span class=\"sr-only o_default_snippet_text\">Next</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_6
+msgid "<span class=\"carousel-control-next-icon\"/>\n"
+"						<span class=\"sr-only\">Next</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_7
+msgid "<span class=\"carousel-control-next-icon\"/>\n"
+"					<span class=\"sr-only\">Next</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+msgid "<span class=\"carousel-control-next-icon\"/>\n"
+"                                <span class=\"sr-only\">Next</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_4
+msgid "<span class=\"carousel-control-next-icon\"/>\n"
+"                    <span class=\"sr-only o_default_snippet_text\">Next</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+msgid "<span class=\"carousel-control-next-icon\"/>\n"
+"                    <span class=\"sr-only\">Next</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_quotes_carousel_ept
+msgid "<span class=\"carousel-control-next-icon\"/>\n"
+"            <span class=\"sr-only\">Next</span>"
+msgstr "<span class=\"carousel-control-next-icon\"/>\n"
+"            <span class=\"sr-only\">Naslednji</span>"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+msgid "<span class=\"carousel-control-prev-icon te_arrow_top\"/>\n"
+"                <span class=\"sr-only o_default_snippet_text\">Previous</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_6
+msgid "<span class=\"carousel-control-prev-icon\"/>\n"
+"						<span class=\"sr-only\">Previous</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_7
+msgid "<span class=\"carousel-control-prev-icon\"/>\n"
+"					<span class=\"sr-only\">Previous</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+msgid "<span class=\"carousel-control-prev-icon\"/>\n"
+"                                <span class=\"sr-only\">Previous</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_4
+msgid "<span class=\"carousel-control-prev-icon\"/>\n"
+"                    <span class=\"sr-only o_default_snippet_text\">Previous</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+msgid "<span class=\"carousel-control-prev-icon\"/>\n"
+"                    <span class=\"sr-only\">Previous</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_quotes_carousel_ept
+msgid "<span class=\"carousel-control-prev-icon\"/>\n"
+"            <span class=\"sr-only\">Previous</span>"
+msgstr "<span class=\"carousel-control-prev-icon\"/>\n"
+"            <span class=\"sr-only\">Prejšnja</span>"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.shop_product_carousel_ept
+msgid "<span class=\"fa fa-angle-down\" role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.shop_product_carousel_ept
+msgid "<span class=\"fa fa-angle-up\" role=\"img\" aria-label=\"Previous\" title=\"Previous\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_7
+msgid "<span class=\"fa fa-check-circle\"/>Checkout"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.quick_view_modal
+msgid "<span class=\"fa fa-chevron-left\" role=\"img\" aria-label=\"Previous\" title=\"Previous\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.quick_view_modal
+msgid "<span class=\"fa fa-chevron-right\" role=\"img\" aria-label=\"Next\" title=\"Next\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.latest_blogs_ept
+msgid "<span class=\"fa fa-exclamation-triangle ml8\" title=\"Unpublished\" role=\"img\" aria-label=\"Unpublished\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_four_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_one_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_three_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_two_template
+msgid "<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_7
+msgid "<span class=\"fa fa-heart\"/>My Wishlist"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_7
+msgid "<span class=\"fa fa-pie-chart\"/>My orders"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_three_template
+msgid "<span class=\"fa fa-shopping-cart\" role=\"img\" aria-label=\"Add to cart\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_7
+msgid "<span class=\"fa fa-sign-out\"/>Logout"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.latest_blogs_ept
+msgid "<span class=\"fa fa-tags\" role=\"img\" aria-label=\"Tags\" title=\"Tags\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_7
+msgid "<span class=\"fa fa-user\"/>My Account"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.address_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_details_custom
+msgid "<span class=\"mb16 d-block text-danger\">* are required fields</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_invoices_custom
+msgid "<span class=\"mob_title\">Amount Due : </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_invoices_custom
+msgid "<span class=\"mob_title\">Due Date : </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_invoices_custom
+msgid "<span class=\"mob_title\">Invoice : </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_invoices_custom
+msgid "<span class=\"mob_title\">Invoice Date : </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_orders_custom
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_quotations_custom
+msgid "<span class=\"mob_title\">Order Date :</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_quotations_custom
+msgid "<span class=\"mob_title\">Quotation :</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_orders_custom
+msgid "<span class=\"mob_title\">Sales Order :</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_orders_custom
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_quotations_custom
+msgid "<span class=\"mob_title\">Total :</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blog_post_short_ept
+msgid "<span class=\"mr4 ml4\">-</span>\n"
+"				By"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "<span class=\"te_cost_validity\">/ Lorem</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_1
+msgid "<span class=\"te_footer_add_tel_email_text_ept\">add</span>\n"
+"									<span class=\"te_footer_colon_ept\">:</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_1
+msgid "<span class=\"te_footer_add_tel_email_text_ept\">email</span>\n"
+"									<span class=\"te_footer_colon_ept\">:</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_1
+msgid "<span class=\"te_footer_add_tel_email_text_ept\">tel</span>\n"
+"									<span class=\"te_footer_colon_ept\">:</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_7
+msgid "<span class=\"te_lang_name\">Language : </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+msgid "<span class=\"te_megamenu_service_heading\">Lorem ipsum dolor sit</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+msgid "<span class=\"te_megamenu_service_heading\">oblique phaedrum</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_7
+msgid "<span class=\"te_name_name\">Lorem ipsum</span>\n"
+"                                            <span class=\"te_name_designation\">- position</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_attributes_ept
+msgid "<span class=\"te_res_filter_title d-none\">Quick Filter</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_2
+msgid "<span class=\"te_user_account_name\">Sign in</span>\n"
+"												<span class=\"te_user_account_icon\"><i class=\"fa fa-user\" aria-hidden=\"true\"/></span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_6
+msgid "<span class=\"te_user_account_name\">Sign in</span>\n"
+"										<span class=\"te_user_account_icon\"><i class=\"fa fa-user\" aria-hidden=\"true\"/></span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_4
+msgid "<span class=\"te_user_account_name\">Sign in</span>\n"
+"									<span class=\"te_user_account_icon\"><i class=\"fa fa-user\" aria-hidden=\"true\"/></span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+msgid "<span class=\"te_user_account_name\">Sign in</span>\n"
+"									<span class=\"te_user_account_icon\"><i class=\"fa fa-user-o\" aria-hidden=\"true\"/></span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_ept
+msgid "<span class=\"te_view_filter_span\">Filters</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_5
+msgid "<span> My Heading </span>\n"
+"							3"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_wishlist_ept
+msgid "<span>Add product to my cart but keep it in my wishlist</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_one_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_two_template
+msgid "<span>Add to cart</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_3
+msgid "<span>Copyright &amp;copy;</span>"
+msgstr "<span>Avtorske pravice &amp;copy;</span>"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_call_to_action_ept
+msgid "<span>Know more</span>\n"
+"				        <i class=\"fa fa-1x fa-fw fa-arrow-circle-right ml-1\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_5
+msgid "<span>Lorem ipsum dolor sit amet, eam et req</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_2
+msgid "<span>Lorem ipsum</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+msgid "<span>Mel in iudico</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_latest_posts_big_picture_template_ept
+msgid "<span>Read More</span>\n"
+"                <i class=\"fa fa-arrow-right\"/>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+msgid "<span>consequat constituam</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+msgid "<span>phaedrum pertinacia</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_quotes_carousel_ept
+msgid "<span>— Lorem ipsum , dolor sit	<b>Lorem</b></span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_quotes_carousel_ept
+msgid "<span>— Lorem ipsum , dolor sit <b>Lorem</b></span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "<sup class=\"te_price_currency\">$</sup>\n"
+"										125"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "<sup class=\"te_price_currency\">$</sup>\n"
+"										35"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "<sup class=\"te_price_currency\">$</sup>\n"
+"										65"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+msgid "<sup class=\"te_price_currency\">$</sup>\n"
+"									35"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+msgid "<sup class=\"te_price_currency\">$</sup>\n"
+"									55"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+msgid "<sup class=\"te_price_currency\">$</sup>\n"
+"									85"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+msgid "<sup class=\"te_price_currency\">$</sup>\n"
+"									99"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "About Shop"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+msgid "About Us"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+msgid "Accessories Products:"
+msgstr ""
+
+#. module: theme_clarico
+#. openerp-web
+#: code:addons/theme_clarico/static/src/js/editor/slider_popup.js:18
+#, python-format
+msgid "Add Slider"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_configurator_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.quick_view_modal
+msgid "Add one"
+msgstr "Dodajte ga"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_add_to_cart_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.quick_view_modal
+msgid "Add to Cart"
+msgstr "Dodaj v voziček"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_four_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_one_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_three_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_two_template
+msgid "Add to Wishlist"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blank_details
+msgid "Address :"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+msgid "Aeque facilis deleniti te sed. Dicam vituperatoribus ad est. Graecis efficiendi an vix, efficiendi disputando te quo. Duo ut stet saperet constituto, pri blandit detracto in. Eu sint elit pri. Ne justo inani signiferumque sit."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+msgid "Affiliates"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+msgid "Alternative Products:"
+msgstr "Alternativni proizvodi:"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_4
+msgid "At vero eos et accusamus et iusto odio dignissimos\n"
+"									ducimus qui blanditiis praesentium voluptatum deleniti atque\n"
+"									corrupti quos dolores et quas molestias excepturi sint\n"
+"									occaecati cupiditate non provident."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_1
+msgid "Bar Stools Chair"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "Blog"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Buttons"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "CMS Blocks Buttons"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.opt_blog_rc_blogs_ept
+msgid "Category"
+msgstr "Kategorija"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.category_carousel_options
+msgid "Change\n"
+"						Category Limit"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Choose your Button styles"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Choose your Footer styles"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Choose your Header styles"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_1
+msgid "Clarico-3 Columans Style 1"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_2
+msgid "Clarico-3 Columns Style 2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_5
+msgid "Clarico-3 Columns Style 5"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_6
+msgid "Clarico-3 Columns Style 6"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_7
+msgid "Clarico-3 Columns Style 7"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_blocks
+msgid "Clarico-4 Blocks"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_banner_ept
+msgid "Clarico-Banner"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customers_carousel_1
+msgid "Clarico-Customer-1"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customers_carousel_2
+msgid "Clarico-Customer-2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.full_width_image
+msgid "Clarico-Full Image"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_image_text
+msgid "Clarico-Image-Text"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_1
+msgid "Clarico-Mega Menus Style 1"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_2
+msgid "Clarico-Mega Menus Style 2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_4
+msgid "Clarico-Mega Menus Style 4"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_5
+msgid "Clarico-Mega Menus Style 5"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_6
+msgid "Clarico-Mega Menus Style 6"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_timer
+msgid "Clarico-Offer Timer"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_1
+msgid "Clarico-Offer style 1"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_2
+msgid "Clarico-Offer style 2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_3
+msgid "Clarico-Offer style 3"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_4
+msgid "Clarico-Offer style 4"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_5
+msgid "Clarico-Offer style 5"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.picture_ept
+msgid "Clarico-Picture"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_3
+msgid "Clarico-Slider Style 3"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_4
+msgid "Clarico-Slider Style 4"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+msgid "Clarico-Slider Style 5"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+msgid "Clarico-Slider Style 8"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_1
+msgid "Clarico-Team-1"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_2
+msgid "Clarico-Team-2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_3
+msgid "Clarico-Team-3"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_two_image
+msgid "Clarico-Text Two images"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_text_image
+msgid "Clarico-Text-Image"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_1
+msgid "Clarico-Text-Image-1"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+msgid "Clarico-Text-Image-2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_ept
+msgid "Click\n"
+"\n"
+"                        <i>'New'</i>\n"
+"                        in the top-right corner to create your first product."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_3
+msgid "Company name"
+msgstr "Naziv družbe"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_company_team_ept
+msgid "Company team"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Contact"
+msgstr "Stik"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_3
+msgid "Contact Info"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.404_ept
+msgid "Contact Us"
+msgstr "Kontakt"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_ept
+msgid "Continue To Shop"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+msgid "Description"
+msgstr "Opis"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Down"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_my_invoices_custom
+msgid "Draft Invoice"
+msgstr "Osnutek računa"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_clarico
+msgid "Dynamic Snippets"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blank_details
+msgid "Edit"
+msgstr "Urejanje"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blank_details
+msgid "Email :"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_clarico
+msgid "Employee And Customers"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blog_post_short_ept
+msgid "Facebook"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Fade"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Flip"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_clarico
+msgid "Footer Rebuilds"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Footers"
+msgstr "Podnožja"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Free Shipping"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Gift Cards"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blog_post_short_ept
+msgid "Google Plus"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Headers"
+msgstr "Glave"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_4
+msgid "Heading\n"
+"											\n"
+"                                            <br/>\n"
+"											2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Help"
+msgstr "Pomoč"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "Help Center"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.404_ept
+msgid "Homepage"
+msgstr "domači strani"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "In"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Informations"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_clarico
+msgid "Inner Snippets"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "International"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+msgid "Invidunt-petentium"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+msgid "Jobs"
+msgstr "Zaposlitve"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.expertise_snippet
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_timer
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.picture_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_banner_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_image_text
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_text_image
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_7
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_two_image
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_4
+msgid "Know more"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_parallax_ept
+msgid "Learn more"
+msgstr "Več o tem"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Left"
+msgstr "Levo"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Legal"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blog_post_short_ept
+msgid "LinkedIn"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_tabs_ept
+msgid "Lorem"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_2
+msgid "Lorem\n"
+"								\n"
+"                                <span class=\"d-block\">\n"
+"									( 5 Lorem )\n"
+"								</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_2
+msgid "Lorem\n"
+"								\n"
+"                                <span class=\"d-block\">\n"
+"									( 6 Lorem )\n"
+"								</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_2
+msgid "Lorem\n"
+"								\n"
+"                                <span class=\"d-block\">\n"
+"									( 7 Lorem )\n"
+"								</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_2
+msgid "Lorem\n"
+"								\n"
+"                                <span class=\"d-block\">\n"
+"									( 9 Lorem )\n"
+"								</span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_5
+msgid "Lorem + ipsum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.header_offer_text
+msgid "Lorem 50% sit"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.header_offer_text
+msgid "Lorem : #ASDA44"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.employee_team_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_blocks
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_company_team_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_features_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_4
+msgid "Lorem ipsum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "Lorem ipsum &amp; dolor sit amet, eam et reque"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_faq_collapse_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_2
+msgid "Lorem ipsum dolor"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.expertise_snippet
+msgid "Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed\n"
+"								do\n"
+"								eiusmod\n"
+"								\n"
+"                                <br/>\n"
+"								tempor incididunt"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.expertise_snippet
+msgid "Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed\n"
+"								do\n"
+"								eiusmod\n"
+"								\n"
+"                                <br/>\n"
+"								tempor incididunt ut labore et dolore magna ipsum dolor sit\n"
+"								amet,"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_1
+msgid "Lorem ipsum dolor s it amet, consectetur adipisicing elit, sed do\n"
+"							eiusmod\n"
+"							tempor incididunt ut labore et dolore magna ipsum dolor sit amet,"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_features_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_faq_collapse_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_2
+msgid "Lorem ipsum dolor sit"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "Lorem ipsum dolor sit amet"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.header_offer_text
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_company_team_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_2
+msgid "Lorem ipsum dolor sit amet,"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_features_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_icon_style_2
+msgid "Lorem ipsum dolor sit amet, eam et"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_blocks
+msgid "Lorem ipsum dolor sit amet, eam et \n"
+"										reque justo quidam, te est audire\n"
+"										persius Duis meis quas vim ex, ius no \n"
+"										oblique phaedrum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_features_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_2
+msgid "Lorem ipsum dolor sit amet, eam et reque justo\n"
+"										\n"
+"                                        <br/>\n"
+"										Lorem ipsum dolor"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_call_to_action_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_features_grid_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam,"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, 												te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_image_text
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_text_image
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam,  audire<br/>ius no oblique phaedrum pertinacia. Ornatus referrentur nec  dicam<br/>Lorem ipsum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_image_text
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_text_image
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam,  audire<br/>ius no oblique phaedrum pertinacia. Ornatus referrentur nec  dicam<br/>Lorem ipsum dolor sit amet, eam et reque justo quidam, audire persius."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_4
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est 											audire persius. Duis meis quas vim ex. oblique Ornatus\n"
+"										\n"
+"                                        <em class=\"o_default_snippet_text\"/>\n"
+"										cu."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_3
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire 										persius. Duis meis quas vim ex, ius no oblique. Ornatus\n"
+"									\n"
+"                                    <em class=\"o_default_snippet_text\"/>\n"
+"									cu."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_banner_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius Duis meis quas vim ex, ius no oblique phaedrum.  \n"
+"											<br/>\n"
+"											Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius Duis meis quas vim ex, ius no oblique phaedrum."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius.\n"
+"							\n"
+"                            <br/>\n"
+"							Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec,"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_1
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis 							quas vim ex, ius no oblique phaedrum pertinacia."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_two_image
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex,"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_quotes_carousel_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_quotes_carousel_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customers_carousel_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_tabs_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customers_carousel_1
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_two_image
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_faq_collapse_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_s_card_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea. Usu bonorum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_faq_collapse_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea. Usu bonorum inermis efficiantur"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_faq_collapse_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea. Usu bonorum inermis efficiantur ad, nec at detracto repudiandae, erat denique percipit at est."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_text_block
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique phaedrum."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_1
+msgid "Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire persius. Duis meis quas vim ex, ius no oblique. Ornatus\n"
+"									<em class=\"o_default_snippet_text\"/>\n"
+"									cu."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.picture_ept
+msgid "Lorem ipsum dolor sit amet, eam et reque, te est audire persius.<br/>  ius no oblique phaedrum pertinacia. Ornatus referrentur nec cu, dicam dolore vivendum ne mea.  ad<br/>dicam dolore vivendum ne mea Usu bonorum inermis efficiantur ad"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_5
+msgid "Lorem ipsum dolor sit amet, eam viris essent dissentiet at"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_6
+msgid "Lorem ipsum dolor sit amet, eam viris essent dissentiet at, nec falli percipit petentium ut\n"
+"										<br/>\n"
+"										 Delenit molestie sententiae ea his, usu augue nemore prompta eu"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_6
+msgid "Lorem ipsum dolor sit amet, eam viris essent dissentiet at, nec falli percipit petentium ut\n"
+"										<br/>\n"
+"										Delenit molestie sententiae ea his, usu augue nemore prompta eu"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_2
+msgid "Lorem ipsum dolor sit amet, eam viris essent dissentiet at, nec falli percipit petentium ut. Delenit molestie sententiae ea his, usu augue nemore prompta eu, te utamur voluptatibus mei. Exerci repudiare vel ex, nam sumo quidam lobortis ad"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_timer
+msgid "Lorem ipsum dolor sit amet, eam viris essent dissentiet at, nec falli percipit petentium ut. Delenit molestie sententiae ea his...."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+msgid "Lorem ipsum dolor sit amet."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_alert_ept
+msgid "Lorem ipsum dolor sit amet. <br/>Lorem ipsum dolor sit amet, eam et reque justo quidam, te est audire"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_4
+msgid "Lorem ipsum sit"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_3
+msgid "Lorem ipsum sit										\n"
+"										\n"
+"                                        <span>50%</span>\n"
+"										 amet, eam et reque justo"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "Lorem phaedrum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+msgid "Meet The Maker"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_clarico
+msgid "Mega Menus"
+msgstr ""
+
+#. module: theme_clarico
+#. openerp-web
+#: code:addons/theme_clarico/static/src/js/editor/offer_snippent_backend.js:16
+#, python-format
+msgid "Modify Time"
+msgstr ""
+
+#. module: theme_clarico
+#. openerp-web
+#: code:addons/theme_clarico/static/src/js/frontend/theme_script.js:765
+#, python-format
+msgid "My Cart"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.portal_home_gridview
+msgid "My Dashboard"
+msgstr "Moja nadzorna plošča"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.expertise_snippet
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_timer
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.picture_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_company_team_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_image_text
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_text_image
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_7
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_two_image
+msgid "My Heading 2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_tabs_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_2
+msgid "My Heading 3"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customers_carousel_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_title_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_features_grid_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_references_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_s_card_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_blocks
+msgid "My Heading 4"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customers_carousel_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.expertise_snippet
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_features_grid_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_1
+msgid "My Heading 5"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_2
+msgid "My Heading 5\n"
+"										\n"
+"                                        <span> 25% </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_2
+msgid "My Heading 5\n"
+"										\n"
+"                                        <span> 50% </span>"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customers_carousel_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.three_columns_style_5
+msgid "My Heading 6"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blank_details
+msgid "Name :"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_7
+msgid "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit abil mutoi sovali uomil mitum."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "New Look"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_7
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_quotes_carousel_ept
+msgid "Next"
+msgstr "Naprej"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_ept
+msgid "No product defined."
+msgstr "Ni določenega proizvoda."
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_ept
+msgid "No results found for \""
+msgstr "Ni rezultatov za \""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_clarico
+msgid "Offers"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Order Status"
+msgstr "Status naloga"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Out"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "PO Box 1622 Colins Street West"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_footer_style_1
+msgid "Payment Methods"
+msgstr "Načini plačila"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "Pellentesque mollis nec orci id tincidunt. Sed mollis risus eu nisi aliquet, sit amet fermentum justo dapibus."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blank_details
+msgid "Phone :"
+msgstr "Telefon:"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "Portfolio"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_4
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_6
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_7
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_8
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_quotes_carousel_ept
+msgid "Previous"
+msgstr "Nazaj"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_summary_ept
+msgid "Price"
+msgstr "Cena"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Privacy"
+msgstr "Zasebnost"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_popover_ept
+msgid "Process Checkout ("
+msgstr "Obdelava blagajne ("
+
+#. module: theme_clarico
+#. openerp-web
+#: code:addons/theme_clarico/static/src/js/editor/slider_popup.js:24
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_summary_ept
+#, python-format
+msgid "Product"
+msgstr "Izdelek"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_categories_ept
+msgid "Product Category"
+msgstr "Skupina izdelkov"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.quick_view_modal
+msgid "Product Name"
+msgstr "Ime Izdelka"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_wishlist_ept
+msgid "Product image"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+msgid "Products"
+msgstr "Izdelki"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_summary_ept
+msgid "Qty"
+msgstr "Kol."
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_popover_ept
+msgid "Qty:"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_ept
+msgid "Quick Filter"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.quickview_icon_shop_product_item
+msgid "Quick View"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+msgid "Ratings and Reviews"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.recently_viewed_ept
+msgid "Recently Viewed Products"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Remove Animation"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_lines_ept
+msgid "Remove from cart"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_lines_ept
+msgid "Remove item"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_configurator_ept
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.quick_view_modal
+msgid "Remove one"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Returns Exchanges"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Right"
+msgstr "Desno"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_5
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_7
+msgid "Search Entire Store..."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_3
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_4
+msgid "Search our store..."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_2
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_6
+msgid "Search..."
+msgstr "Iskanje..."
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Security"
+msgstr "Varnost"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.share_product
+msgid "Share :"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_four_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_one_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_three_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.clarico_slider_styles_two_template
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.products_add_to_cart_ept
+msgid "Shopping cart"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_clarico
+msgid "Sliders"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.category_carousel_options
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_slider_options
+msgid "Snippet"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_ept
+msgid "Specification"
+msgstr "Specifikacija"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_7
+msgid "Start typing and press Enter to search"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 1"
+msgstr "Slog 1"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 10"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 2"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 3"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 4"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 5"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 6"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 7"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 8"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.theme_customize_ept
+msgid "Style 9"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Supply Chain"
+msgstr "Oskrbovalna veriga"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.footer_snippet_style3
+msgid "Text Messaging"
+msgstr "Besedilna sporočila"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.404_ept
+msgid "The page you requested could not be found"
+msgstr "Zahtevane strani ni bilo mogoče najti"
+
+#. module: theme_clarico
+#: model:ir.model,name:theme_clarico.model_theme_utils
+msgid "Theme Utils"
+msgstr "Pomožni pripomočki teme"
+
+#. module: theme_clarico
+#. openerp-web
+#: code:addons/theme_clarico/static/src/xml/customise_option.xml:6
+#, python-format
+msgid "Theme colors"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.quick_view_modal
+msgid "This combination does not exist."
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blog_post_short_ept
+msgid "Twitter"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Up"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Up-left"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.customize_header_style_5
+msgid "What are you Looking for ?"
+msgstr "Kaj iščete ?"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.product_wishlist_ept
+msgid "Wishlist"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_parallax_ept
+msgid "Your Site Title"
+msgstr "Naslov spletnega mesta"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_lines_ept
+msgid "Your cart is empty!"
+msgstr "Vaš nakupovalni voziček je prazen!"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "Zoom"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.website_pricefilter_ept
+msgid "apply filter"
+msgstr "uporabi filter"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "bonorum &amp; inermis efficiantur"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.text_image_1
+msgid "consectetur elit adipisicing elitLorem ipsum dolor s it ametr"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "down-left"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "down-right"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "in-down"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "in-left"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "in-right"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "in-up"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.offer_style_4
+msgid "ipsum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.cart_popover_ept
+msgid "items)"
+msgstr "artiklov)"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_btn_ept
+msgid "know more"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.slider_style_1
+msgid "nec falli percipit petentium ut.\n"
+"									\n"
+"                                    <br/>\n"
+"									te utamur voluptatibus mei"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_3
+msgid "oblique phaedrum"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "out-down"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "out-left"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "out-right"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "out-up"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.four_columns_pricing
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.megamenu_style_1
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.s_comparisons_ept
+msgid "phaedrum pertinacia"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.menu_vertical
+msgid "support@emiprotechnologies.com"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.blog_post_short_ept
+msgid "unpublished"
+msgstr "neobjavljeno"
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.snippets_animation_option
+msgid "up-right"
+msgstr ""
+
+#. module: theme_clarico
+#: model_terms:theme.ir.ui.view,arch:theme_clarico.t_tabs_ept
+msgid "— Lorem ipsum, dolor sit <b>Lorem</b>"
+msgstr ""
+

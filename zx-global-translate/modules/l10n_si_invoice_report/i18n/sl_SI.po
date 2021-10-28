@@ -1,0 +1,89 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_si_invoice_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-28 12:05+0200\n"
+"Last-Translator: Nejc86 <nejc@glasmik.si>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: sl_SI\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "<strong>Invoice Date:</strong>"
+msgstr "<strong>Datum računa:</strong>"
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "<strong>Service Date:</strong>"
+msgstr "<strong>Datum Dobave:</strong>"
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "Amount"
+msgstr "Znesek"
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "Base"
+msgstr "Osnova za DDV"
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,field_description:l10n_si_invoice_report.field_account_invoice__date_invoice_creation
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_debt_form
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_supplier_debt_form
+msgid "Creation Date"
+msgstr "Datum računa"
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,field_description:l10n_si_invoice_report.field_account_invoice__date_invoice_received
+msgid "Date Received"
+msgstr "Datum prejema"
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,help:l10n_si_invoice_report.field_account_invoice__date_invoice
+msgid "Date when debt relationship between customer and supplier started."
+msgstr "Datum, ko se začne dolžniško razmerje med kupcem in dobaviteljem."
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,help:l10n_si_invoice_report.field_account_invoice__date_invoice_creation
+msgid "Date when invoice was created."
+msgstr "Datum nastanka računa."
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,help:l10n_si_invoice_report.field_account_invoice__date_invoice_received
+msgid "Date when supplier invoice was received."
+msgstr "Datum, ko je račun bil prejet."
+
+#. module: l10n_si_invoice_report
+#: model:ir.model,name:l10n_si_invoice_report.model_account_invoice
+msgid "Invoice"
+msgstr "Račun"
+
+#. module: l10n_si_invoice_report
+#: model:ir.model.fields,field_description:l10n_si_invoice_report.field_account_invoice__date_invoice
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_debt_form
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_supplier_debt_form
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.view_account_invoice_filter
+msgid "Service Date"
+msgstr "Datum storitve"
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "Tax"
+msgstr "Davek"
+
+#. module: l10n_si_invoice_report
+#: model_terms:ir.ui.view,arch_db:l10n_si_invoice_report.report_invoice_service_date
+msgid "Tax Summary"
+msgstr "Povzetek"

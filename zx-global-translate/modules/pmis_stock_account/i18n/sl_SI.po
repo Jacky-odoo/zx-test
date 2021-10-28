@@ -1,0 +1,1368 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* pmis_stock_account
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_account_invoice_line__inv_line_state
+msgid " * The 'Draft' status is used when a user is encoding a new and unconfirmed Invoice.\n"
+" * The 'Open' status is used when user creates invoice, an invoice number is generated. It stays in the open status till the user pays the invoice.\n"
+" * The 'In Payment' status is used when payments have been registered for the entirety of the invoice in a journal configured to post entries at bank reconciliation only, and some of them haven't been reconciled with a bank statement line yet.\n"
+" * The 'Paid' status is set automatically when the invoice is paid. Its related journal entries may or may not be reconciled.\n"
+" * The 'Cancelled' status is used when user cancel invoice."
+msgstr " * Status 'Osnutek' se uporablja za nov in nepotrjen račun.\n"
+" * Status 'Odprto' se uporablja, ko uporabnik potrdi račun in mu je dodeljena številka računa. V tem statusu ostane do plačila računa.\n"
+" * Status 'V plačilu' se uporablja, ko se vknjižijo delna plačila računa oziroma so z bančnimi izpiski usklajena le delna plačila.\n"
+" * Status 'Plačano' se samodejno nastavi, ko je račun v celoti plačan.\n"
+" * Status 'Preklicano' se uporablja, ko uporabnik prekliče račun."
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.invoice_form
+msgid "<span>kg</span>"
+msgstr ""
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Account"
+msgstr "Konto"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__account_journal_id
+msgid "Account Journal"
+msgstr "Dnevnik konta"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__inv_line_date
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Accounting Date"
+msgstr "Knjigovodski datum"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_stock_account_purchase_control_line
+msgid "Accounting Stock Control Line"
+msgstr "Postavka kontrole materialnega knjigovodstva"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_stock_account_control
+msgid "Accounting Stock control"
+msgstr "Materialno knjigovodstvo - kontrola"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_needaction
+msgid "Action Needed"
+msgstr "Potreba po ukrepu"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Active"
+msgstr "Aktivno"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_move_form
+msgid "All Bill Lines"
+msgstr "Vse post. prej. računov"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Analysis"
+msgstr "Analiza"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_location__analytic_usage
+msgid "Analytic Usage"
+msgstr "Analitična raba"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_attachment_count
+msgid "Attachment Count"
+msgstr "Število prilog"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__bill_id
+msgid "Bill"
+msgstr "Račun"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__bill_date_range_fm_id
+msgid "Bill Fiscal Month"
+msgstr "Fiskalni mesec"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__bill_line_ids
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__bill_line_ids
+msgid "Bill Lines"
+msgstr "Postavke prejetih računov"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__billed_incoming_move_ids
+msgid "Billed Incoming Move"
+msgstr "Zaračunani prejem"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__billed_qty
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__billed_qty
+msgid "Billed Qty"
+msgstr "Zaračunana kol."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__billed_value
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__billed_value
+msgid "Billed Value"
+msgstr "Zarač. vrednost"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_picking__bill_ids
+msgid "Bills"
+msgstr "Prejeti računi"
+
+#. module: pmis_stock_account
+#: selection:stock.account.control,state:0
+msgid "Bills Checked"
+msgstr "Prejeti računi preverjeni"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Cancel"
+msgstr "Preklic"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_customer_deliveries_value_fm
+msgid "Closing Customer Deliveries"
+msgstr "Zaklj. dobave kupcem"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_customer_returns_value_fm
+msgid "Closing Customer Returns"
+msgstr "Zaklj. vrač. kupcev"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_damage_value_fm
+msgid "Closing Damaged Goods Scraps"
+msgstr "Zaklj. odpisi - lom"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_sample_value_fm
+msgid "Closing Given Samples"
+msgstr "Zaklj. dani vzorci"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_inventory_value_fm
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Closing Inventory"
+msgstr "Zaklj. vred. zalog"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_inventory_adjustments_value_fm
+msgid "Closing Inventory Adjustments"
+msgstr "Zaklj. inv. popravki"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_obsolete_value_fm
+msgid "Closing Obsolete Goods Scraps"
+msgstr "Zaklj. odpisi - nekurantno"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_own_usage_value_fm
+msgid "Closing Own Usage"
+msgstr "Zaklj. lastna raba"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_production_value_fm
+msgid "Closing Production"
+msgstr "Zaklj. proizvodnja"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_reconcile_value_fm
+msgid "Closing Reconciliations"
+msgstr "Zaklj. poboti"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_supplier_receipts_value_fm
+msgid "Closing Supplier Receipts"
+msgstr "Zaklj. prejemi"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__closing_supplier_returns_value_fm
+msgid "Closing Supplier Returns"
+msgstr "Zaklj. vrač. dobaviteljem"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Closing Values"
+msgstr "Zaključne vrednosti"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_res_company
+msgid "Companies"
+msgstr "Družbe"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__company_id
+msgid "Company"
+msgstr "Družba"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__company_id
+msgid "Company related to this journal"
+msgstr "Družba vezana na ta dnevnik"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Compute Bills"
+msgstr "Obdelaj prejete račune"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__document_date
+msgid "Control Date"
+msgstr "Datum kontrole"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__control_document_id
+msgid "Control Document"
+msgstr "Kontrolni dok."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__create_uid
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__create_uid
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__create_uid
+msgid "Created by"
+msgstr "Ustvaril"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__create_date
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__create_date
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__create_date
+msgid "Created on"
+msgstr "Ustvarjeno"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__currency_id
+msgid "Currency"
+msgstr "Valuta"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Customer Deliveries"
+msgstr "Dobave kupcem"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__customer_return_move_ids
+msgid "Customer Return Move"
+msgstr "Premik vračila kupca"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Customer Returns"
+msgstr "Vračilo kupca"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+#: selection:stock.location,analytic_usage:0
+msgid "Damaged Goods Scraps"
+msgstr "Odpisi - lom"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_search
+msgid "Date"
+msgstr "Datum"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__delivered_move_ids
+msgid "Delivered Move"
+msgstr "Dobavni premik"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__title
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+msgid "Description"
+msgstr "Opis"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__display_name
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__display_name
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__display_name
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__date
+msgid "Document Date"
+msgstr "Datum dokumenta"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_search
+msgid "Done"
+msgstr "Opravljeno"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_search
+#: selection:stock.account.control,state:0
+msgid "Draft"
+msgstr "Osnutek"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__inv_line_date_due
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Due Date"
+msgstr "Valuta"
+
+#. module: pmis_stock_account
+#: model:ir.ui.menu,name:pmis_stock_account.menu_fifo_lines
+msgid "FIFO Lines"
+msgstr "FIFO vrstice"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_move_form
+msgid "FIFO Sources"
+msgstr "FIFO izvori"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_move_form
+msgid "FIFO Targets"
+msgstr "FIFO cilji"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__failed_message_ids
+msgid "Failed Messages"
+msgstr "Neuspela sporočila"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_fifo_line
+msgid "Fifo Line"
+msgstr "FIFO vrstica"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_move_form
+msgid "Fifo Lines"
+msgstr "FIFO vrstice"
+
+#. module: pmis_stock_account
+#: model:ir.actions.act_window,name:pmis_stock_account.action_fifo_lines_tree
+msgid "Fifo Lines Tree"
+msgstr "Seznam FIFO vrstic"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__fifo_move_ids
+msgid "Fifo Source Lines"
+msgstr "Vrstice FIFO izvorov"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__candidate_move_id
+msgid "Fifo Source Move"
+msgstr "FIFO izvorni premik"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__target_move_ids
+msgid "Fifo Target Lines"
+msgstr "FIFO ciljne vrstice"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__target_move_id
+msgid "Fifo Target Move"
+msgstr "FIFO ciljni premik"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Fiscal Month"
+msgstr "Fiskalni mesec"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__fiscal_move_type
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.pmis_stock_move_inherit_search
+msgid "Fiscal Move Type"
+msgstr "Tip fiskalnega premika"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_picking__fiscal_position_id
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_picking_internal_search
+msgid "Fiscal Position"
+msgstr "Davčno območje"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__inv_line_fiscal_month
+msgid "Fiscal month"
+msgstr "Fiskalni mesec"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__date_range_fm_id
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__date_range_fm_id
+msgid "Fiscal period"
+msgstr "Fiskalno obdobje"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Fix"
+msgstr "Popravi"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__fix_origin_id
+msgid "Fix Origin Doc."
+msgstr "Izvorni dok. popravka"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_follower_ids
+msgid "Followers"
+msgstr "Sledilci"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "Sledilci (kanali)"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Sledilci (partnerji)"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+#: selection:stock.location,analytic_usage:0
+msgid "Given Samples"
+msgstr "Dani vzorci"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_search
+msgid "Group By"
+msgstr "Združi po"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__has_stock_moves
+msgid "Has Stock Moves"
+msgstr "Vsebuje premika zalog"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__id
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__id
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__id
+msgid "ID"
+msgstr ""
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Označeno pomeni, da nova sporočila zahtevajo vašo pozornost."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Če je označeno, zahtevajo nova sporočila vašo pozornost."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Če je označeno, imajo nekatera sporočila napako pri dostavi."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_account_invoice_line__inv_line_date_due
+msgid "If you use payment terms, the due date will be computed automatically at the generation of accounting entries. The Payment terms may compute several due dates, for example 50% now and 50% in one month, but if you want to force a due date, make sure that the payment term is not set on the invoice. If you keep the Payment terms and the due date empty, it means direct payment."
+msgstr "Če uporabljate plačilne pogoje bo datum zapadlosti samodejno izračunan ob nastanku knjigovodskih zapisov. Plačilni pogoji lahko obračunajo več datumov zapadlosti, npr. 50% takoj, 50% čez mesec dni, a če želite ročno vsiliti datum zapadlosti, se prepričajte, da plačilni pogoj ni določen na računu. Če pustite plačilni pogoj in datum zapadlosti prazna, to pomeni takojšnje plačilo."
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "In Payment"
+msgstr "V plačilu"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_product_product__incoming_stock_move_qty
+msgid "Incoming Stock Move Qty"
+msgstr "Prejeta količina"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_product_product__incoming_stock_move_value
+msgid "Incoming Stock Move Value"
+msgstr "Prejeta vrednost"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice__lines_incomplete
+msgid "Incomplete Invoice Lines"
+msgstr "Nepopolne postavke računa"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice__incomplete_invoice_line_ids
+msgid "Incomplete Lines"
+msgstr "Nepopolne postavke"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_stock_inventory
+msgid "Inventory"
+msgstr "Zaloga"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+#: selection:stock.location,analytic_usage:0
+msgid "Inventory Adjustments"
+msgstr "Inventura"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Inventory Evaluation"
+msgstr "Ovrednotenje zaloge"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_stock_location
+msgid "Inventory Locations"
+msgstr "Lokacije zalog"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_product_product__inventory_stock_move_qty
+msgid "Inventory Stock Move Qty"
+msgstr "Količina premika zaloge"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_product_product__inventory_stock_move_value
+msgid "Inventory Stock Move Value"
+msgstr "Vrednost premika zaloge"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_account_invoice
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Invoice"
+msgstr "Račun"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Postavka računa"
+
+#. module: pmis_stock_account
+#: model:ir.actions.act_window,name:pmis_stock_account.action_invoice_control_view
+#: model:ir.ui.menu,name:pmis_stock_account.pmis_control_invoice_lines
+msgid "Invoice Lines"
+msgstr "Postavke računa"
+
+#. module: pmis_stock_account
+#: code:addons/pmis_stock_account/models/account_invoice.py:23
+#, python-format
+msgid "Invoice number must contain numeric characters"
+msgstr ""
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_is_follower
+msgid "Is Follower"
+msgstr "Je sledilec"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_account_move
+msgid "Journal Entries"
+msgstr "Vnosi v dnevnik"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__account_move_id
+msgid "Journal Entry"
+msgstr "Temeljnica"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_account_move_line
+msgid "Journal Item"
+msgstr "Dnevniška postavka"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_account_invoice_line__inv_line_date
+msgid "Keep empty to use the invoice date."
+msgstr "Pustite prazno za uporabo datuma računa."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__landed_move_ids
+msgid "Landed Move"
+msgstr "Odvisni premik"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_res_company__last_sm_bill_update
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__last_sm_bill_update
+msgid "Last Bills Update"
+msgstr "Zadnja posod. prejetih rač."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line____last_update
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control____last_update
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line____last_update
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__write_uid
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__write_uid
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji posodobil"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__write_date
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__write_date
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__write_date
+msgid "Last Updated on"
+msgstr "Zadnjič posodobljeno"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+msgid "Lots"
+msgstr "Sklopi"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Glavna priponka"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_has_error
+msgid "Message Delivery error"
+msgstr "Napaka pri dostavi sporočila"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_ids
+msgid "Messages"
+msgstr "Sporočila"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__moved_qty
+msgid "Moved Qty"
+msgstr "Premik kol"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__moved_value
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__period_moved_value
+msgid "Moved Value"
+msgstr "Premik vrednost"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__product_id
+msgid "Moved product"
+msgstr "Premik izdelek"
+
+#. module: pmis_stock_account
+#: code:addons/pmis_stock_account/models/stock_account_control.py:36
+#: code:addons/pmis_stock_account/models/stock_account_control.py:919
+#, python-format
+msgid "New"
+msgstr ""
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_inventory_value_fm
+msgid "New value of stock to post."
+msgstr "Nova vrednost zalog za knjiženje."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_customer_deliveries_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_customer_returns_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_damage_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_inventory_adjustments_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_obsolete_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_own_usage_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_production_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_reconcile_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_sample_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_supplier_receipts_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__closing_supplier_returns_value_fm
+msgid "New value to post."
+msgstr "Nova vrednost za knjiženje."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__note
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+msgid "Note"
+msgstr "Opomba"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Notes"
+msgstr "Opombe"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Število aktivnosti"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_has_error_counter
+msgid "Number of error"
+msgstr "Številka napake"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "Število sporočil, ki potrebujejo ukrepanje"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Število sporočil, ki niso bila pravilno dostavljena"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__message_unread_counter
+msgid "Number of unread messages"
+msgstr "Število neprebranih sporočil"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+#: selection:stock.location,analytic_usage:0
+msgid "Obsolete Goods Scraps"
+msgstr "Odpisi - nekurantno"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Open"
+msgstr "Odprto"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__ordered_qty
+msgid "Ordered Qty"
+msgstr "Naroč. kol"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__ordered_value
+msgid "Ordered Value"
+msgstr "Naroč. vrednost"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_product_product__outgoing_stock_move_qty
+msgid "Outgoing Stock Move Qty"
+msgstr "Izhodna količina premika"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_product_product__outgoing_stock_move_value
+msgid "Outgoing Stock Move Value"
+msgstr "Izhodna vrednost premika"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Overdue"
+msgstr "Zapadlo"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Overdue invoices, maturity date passed"
+msgstr "Zapadli računi, prekoračen rok plačila"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Overview"
+msgstr "Pregled"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+#: selection:stock.location,analytic_usage:0
+msgid "Own Usage"
+msgstr "Lastna raba"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Paid"
+msgstr "Plačano"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Partner"
+msgstr ""
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__period_bill_line_ids
+msgid "Period Bill Lines"
+msgstr "Postavke v obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__period_billed_qty
+msgid "Period Billed Qty"
+msgstr "Zarač. kol v obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__period_billed_value
+msgid "Period Billed Value"
+msgstr "Zarač. vred. v obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_customer_deliveries_value_fm
+msgid "Period Customer Deliveries"
+msgstr "Obdobne dobave kupcem"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_customer_returns_value_fm
+msgid "Period Customer Returns"
+msgstr "Obdobna vračila kupcev"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_damage_value_fm
+msgid "Period Damaged Goods Scraps"
+msgstr "Obdobno odpisi - lom"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_sample_value_fm
+msgid "Period Given Samples"
+msgstr "Obdobno dani vzorci"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_inventory_adjustments_value_fm
+msgid "Period Inventory Adjustments"
+msgstr "Obdobno inventurni popravki"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__period_moved_qty
+msgid "Period Moved Qty"
+msgstr "Premik kol. v obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_obsolete_value_fm
+msgid "Period Obsolete Goods Scraps"
+msgstr "Obdobno odpisi - nekurantno"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_own_usage_value_fm
+msgid "Period Own Usage"
+msgstr "Obdobno lastna raba"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_production_value_fm
+msgid "Period Production"
+msgstr "Obdobno proizvodnja"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_reconcile_value_fm
+msgid "Period Reconciliations"
+msgstr "Obdobno poboti"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_supplier_receipts_value_fm
+msgid "Period Supplier Receipts"
+msgstr "Obdobni prejemi"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__diff_supplier_returns_value_fm
+msgid "Period Supplier Returns"
+msgstr "Obdobna vračila dobaviteljem"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_damage_value_fm
+msgid "Period Value - Damaged Goods Scraps"
+msgstr "Obdobno odpisi - lom"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_sample_value_fm
+msgid "Period Value - Given Samples"
+msgstr "Obdobno dani vzorci"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_obsolete_value_fm
+msgid "Period Value - Obsolete Goods Scraps"
+msgstr "Obdobno odpisi - nekurantno"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_own_usage_value_fm
+msgid "Period Value - Own Usage"
+msgstr "Obdobno lastna raba"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_production_value_fm
+msgid "Period Value - Production"
+msgstr "Obdobno proizvodnja"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_reconcile_value_fm
+msgid "Period Value - Reconciliations"
+msgstr "Obdobno poboti"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_inventory_adjustments_value_fm
+msgid "Period Value - inventory adjustments"
+msgstr "Obdobno inventurni popravki"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_customer_deliveries_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_customer_returns_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_supplier_receipts_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__diff_supplier_returns_value_fm
+msgid "Period Value."
+msgstr "Obdobna vrednost"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Period Values"
+msgstr "Obdobne vrednosti"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__picking_ids
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__picking_ids
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_line_form_stock_moves
+msgid "Pickings"
+msgstr "Zbirniki"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_inventory_value_fm
+msgid "Posted value of stock, prior to control"
+msgstr "Knjižena vrednost zalog pred kontrolo"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_customer_deliveries_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_customer_returns_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_damage_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_inventory_adjustments_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_obsolete_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_own_usage_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_production_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_reconcile_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_sample_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_supplier_receipts_value_fm
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__starting_supplier_returns_value_fm
+msgid "Posted value prior to control"
+msgstr "Knjižena vrednost pred kontrolo"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_product_product
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__product_id
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Product"
+msgstr "Izdelek"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+#: selection:stock.location,analytic_usage:0
+msgid "Production"
+msgstr "Proizvodnja"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+msgid "Production Lots"
+msgstr "Proizvodni loti"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Purchase"
+msgstr "Nabava"
+
+#. module: pmis_stock_account
+#: model:ir.ui.menu,name:pmis_stock_account.menu_purchase_control_lines
+msgid "Purchase Control Lines"
+msgstr "Postavke nabavne kontrole"
+
+#. module: pmis_stock_account
+#: model:ir.actions.act_window,name:pmis_stock_account.action_purchase_control_lines_tree
+msgid "Purchase Control Lines Tree"
+msgstr "Seznam postavk nabavne kontrole"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__bill_line_index
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__stock_move_index
+msgid "Purchase Index"
+msgstr "Nabavni indeks"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__purchase_line_id
+msgid "Purchase Line"
+msgstr "Nabavna postavka"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_line_form_stock_moves
+msgid "Purchase Line Pickings"
+msgstr "Dobavnice nabavne postavke"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_line_form_stock_moves
+msgid "Purchase Line Stock Moves"
+msgstr "Premiki zaloge nabavne postavke"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__purchase_line_ids
+msgid "Purchase Lines"
+msgstr "Nabavne postavke"
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "Postavka nabavnega naloga"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__candidate_qty
+msgid "Qty"
+msgstr "Kol."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_product_product__qty_error
+msgid "Qty Error"
+msgstr "Napaka količine"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__period_billed_qty
+msgid "Qty. billed in the period."
+msgstr "Zarač. kol v obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__billed_qty
+msgid "Qty. billed on purchase line."
+msgstr "Kol. zarač. v sklopu naročila."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__period_moved_qty
+msgid "Qty. moved in the period."
+msgstr "Kol. premikov v obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__moved_qty
+msgid "Qty. moved on purchase line."
+msgstr "Kol. premikov v sklopu naročila"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__ordered_qty
+msgid "Qty. ordered on purchase line."
+msgstr "Naroč. količina v sklopu naročila"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_fifo_line__candidate_qty
+msgid "Qty. taken from the source move"
+msgstr "Količina vzeta iz izvornega premika"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.product_variant_easy_edit_view_fix
+msgid "Recalculate FIFO"
+msgstr "Ponovno preračunaj FIFO"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__received_move_ids
+msgid "Received Move"
+msgstr "Premik prejema"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+#: selection:stock.location,analytic_usage:0
+msgid "Reconciliations"
+msgstr "Uskladitve"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.product_normal_form_view_inherit_fix
+msgid "Recreate FIFO table"
+msgstr "Ponovno ustvari FIFO tabelo"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__name
+msgid "Reference"
+msgstr "Sklic"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__name
+msgid "Reference for the journal entry"
+msgstr "Sklic dnevniškega vnosa"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Sale"
+msgstr "Prodaja"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__related_stock_move_ids
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__period_stock_move_ids
+msgid "Same Period Moves"
+msgstr "Premiki v istem obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__related_picking_ids
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__period_picking_ids
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_line_form_stock_moves
+msgid "Same Period Pickings"
+msgstr "Dobavnice v istem obdobju"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_line_form_stock_moves
+msgid "Same Period Stock Moves"
+msgstr "Premiki zaloge v istem obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__scrap_move_ids
+msgid "Scraps"
+msgstr "Odpisi"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Search Invoice Line"
+msgstr "Iskanje postavk računa"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+msgid "Section"
+msgstr "Oddelek"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__candidate_product_id
+msgid "Source product"
+msgstr "Izvorni izdelek"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_customer_deliveries_value_fm
+msgid "Starting Customer Deliveries"
+msgstr "Zač. dobave kupcem"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_customer_returns_value_fm
+msgid "Starting Customer Returns"
+msgstr "Zač. vrač. kupcev"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_damage_value_fm
+msgid "Starting Damaged Goods Scraps"
+msgstr "Zač. odpisi - lom"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_sample_value_fm
+msgid "Starting Given Samples"
+msgstr "Zač. dani vzorci"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_inventory_value_fm
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Starting Inventory"
+msgstr "Začetna zaloga"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_inventory_adjustments_value_fm
+msgid "Starting Inventory Adjustments"
+msgstr "Zač. inv. popravki"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_obsolete_value_fm
+msgid "Starting Obsolete Goods Scraps"
+msgstr "Zač. odpisi - nekurantno"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_own_usage_value_fm
+msgid "Starting Own Usage"
+msgstr "Zač. lastna raba"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_production_value_fm
+msgid "Starting Production"
+msgstr "Zač. proizvodnja"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_reconcile_value_fm
+msgid "Starting Reconciliations"
+msgstr "Zač. poboti"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_supplier_receipts_value_fm
+msgid "Starting Supplier Receipts"
+msgstr "Zač. prejemi"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__starting_supplier_returns_value_fm
+msgid "Starting Supplier Returns"
+msgstr "Zač. vračila dobaviteljem"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Starting Values"
+msgstr "Začetne vrednosti"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__inv_line_state
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__state
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_search
+msgid "Status"
+msgstr ""
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_search
+msgid "Stock"
+msgstr "Zaloga"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_search
+msgid "Stock Account Control"
+msgstr "Materialno knjigovodstvo - kontrola"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Stock Account Control Record"
+msgstr "Kontrolni zapis materialnega knjigovodstva"
+
+#. module: pmis_stock_account
+#: model:ir.actions.act_window,name:pmis_stock_account.action_stock_account_control
+msgid "Stock Account control"
+msgstr "Nadzor materialnega knjigovodstva"
+
+#. module: pmis_stock_account
+#: model:ir.ui.menu,name:pmis_stock_account.pmis_stock_account_control_menu
+msgid "Stock Accounting"
+msgstr "Materialno knjigovodstvo"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_move__stock_inventory_periodic_id
+msgid "Stock Control Doc."
+msgstr "Kontrolni dok."
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_stock_move
+msgid "Stock Move"
+msgstr "Premik zaloge"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Stock Move Fiscal Month"
+msgstr "Premik zaloge fisk. mesec"
+
+#. module: pmis_stock_account
+#: model:ir.actions.act_window,name:pmis_stock_account.stock_move_action_by_dest
+#: model:ir.actions.act_window,name:pmis_stock_account.stock_move_action_by_fm
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice_line__stock_move_ids
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_purchase_control_line__stock_move_ids
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_control_form
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_invoice_line_form_stock_moves
+msgid "Stock Moves"
+msgstr "Premiki zalog"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_location__analytic_usage
+msgid "Stock location analytic usage."
+msgstr "Analitična raba lokacije zaloge."
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Supplier Receipts"
+msgstr "Prejemi"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__supplier_return_move_ids
+msgid "Supplier Return Move"
+msgstr "Premik vračila dobavitelju"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_stock_account_control_form
+msgid "Supplier Returns"
+msgstr "Vračila dobaviteljem"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_picking__fiscal_position_id
+msgid "The fiscal position determines the taxes/accounts used for this contact."
+msgstr "Davčno območje določa davke / račune, ki se uporabljajo za ta stik."
+
+#. module: pmis_stock_account
+#: model_terms:ir.actions.act_window,help:pmis_stock_account.action_stock_account_control
+msgid "There are no examples. Click here to add a Stock Account Control record."
+msgstr "Ni primerov. Dodaj kontrolni zapis materialnega knjigovodstva."
+
+#. module: pmis_stock_account
+#: model:ir.model,name:pmis_stock_account.model_stock_picking
+msgid "Transfer"
+msgstr "Premestitev"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.product_normal_form_view_inherit_fix
+msgid "Unlink the corrupted fifo moves and create new ones by                       running run_valuation on all product stock moves."
+msgstr "Odstrani pokvarjene fifo premike in ustvari nove z                       zagonom run_valuation na vseh premikih zaloge proizvodov."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_unread
+msgid "Unread Messages"
+msgstr "Neprebrana sporočila"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "Števec neprebranih sporočil"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.product_normal_form_view_inherit_fix
+msgid "Update FIFO moves"
+msgstr "Posodobi FIFO premike"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.product_normal_form_view_inherit_fix
+msgid "Update fifo moves values with the actual stock moves                       values in event of manual changes on stock move value                       fields."
+msgstr "Posodobi vrednosti fifo premikov z dejanskimi vrednostmi premikov                       zaloge v primeru ročnih sprememb polj vrednosti premikov                       zaloge."
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.invoice_form
+msgid "Validate"
+msgstr "Potrditev"
+
+#. module: pmis_stock_account
+#: selection:stock.account.control,state:0
+msgid "Validated"
+msgstr "Potrjeno"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_fifo_line__candidate_value
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_move_form
+msgid "Value"
+msgstr "Vrednost"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__period_billed_value
+msgid "Value billed in the period."
+msgstr "Zarač. vred. v obdobju"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__billed_value
+msgid "Value billed on purchase line."
+msgstr "Vred. zarač. v sklopu naročila."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__period_moved_value
+msgid "Value moved in the period."
+msgstr "Vred. premikov v obdobju."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__moved_value
+msgid "Value moved on purchase line."
+msgstr "Vred. premikov v sklopu naročila."
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_purchase_control_line__ordered_value
+msgid "Value ordered on purchase line."
+msgstr "Naroč. vred. v sklopu naročila"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_fifo_line__candidate_value
+msgid "Value taken from the source move"
+msgstr "Vrednost vzeta iz izvornega premika"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.view_picking_form
+msgid "Vendor Bills"
+msgstr "Prejeti računi"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_account_control__website_message_ids
+msgid "Website Messages"
+msgstr "Sporočila iz spletne strani"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,help:pmis_stock_account.field_stock_account_control__website_message_ids
+msgid "Website communication history"
+msgstr "Zgodovina spletnih komunikacij"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_invoice__total_weight
+msgid "Weight"
+msgstr "Masa"
+
+#. module: pmis_stock_account
+#: model_terms:ir.ui.view,arch_db:pmis_stock_account.pmis_stock_move_inherit_search
+msgid "Year"
+msgstr "Leto"
+
+#. module: pmis_stock_account
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_move__stock_inventory_periodic_id
+#: model:ir.model.fields,field_description:pmis_stock_account.field_account_move_line__stock_inventory_periodic_id
+#: model:ir.model.fields,field_description:pmis_stock_account.field_purchase_order_line__stock_inventory_periodic_id
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_inventory__stock_inventory_periodic_id
+#: model:ir.model.fields,field_description:pmis_stock_account.field_stock_picking__stock_inventory_periodic_id
+msgid "control Doc."
+msgstr "Kontrolni dokument"
+

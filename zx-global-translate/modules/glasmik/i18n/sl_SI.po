@@ -1,0 +1,92 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* glasmik
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.art_glass
+msgid "Artistics"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.diamond
+msgid "Diamantni materijal"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.eva_foil
+msgid "Eva folija"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.molecular_sieve
+msgid "Molekularna sita"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.processed_glass
+msgid "Obdelano steklo"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.tempered_glass_fittings
+msgid "Okovje za kaljeno steklo"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.glass_tools
+msgid "Orodje za steklarje"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.ornament_profiles
+msgid "Profili - ornamentni"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.isoglass_profiles
+msgid "Profili za izosteklo"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.miscellaneous_materials
+msgid "Razni materijali"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.spare_parts
+msgid "Rezervni deli"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.silicone
+msgid "Silikoni"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.glass
+msgid "Steklo"
+msgstr "Vse"
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.machines
+msgid "Stroji"
+msgstr ""
+
+#. module: glasmik
+#: model:product.public.category,name:glasmik.gaskets
+msgid "Tesnila"
+msgstr ""
+

@@ -1,0 +1,627 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* subcateg
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.art_glass.Vetrofusione
+msgid "Artistic - Fuzija"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.art_glass.Maver
+msgid "Artistic - Maver"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.art_glass.Ostali
+msgid "Artistic - Ostali"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Dischi_diamantati
+msgid "Diamant - Dischi diamantati"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Feltri_(lana_+_sintetici)
+msgid "Diamant - Feltri (lana + sintetici)"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Foretti
+msgid "Diamant - Foretti"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Mole_a_tazza
+msgid "Diamant - Mole a tazza"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Mole_lucidanti_a_tazza
+msgid "Diamant - Mole lucidanti a tazza"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Mole_lucidanti_periferiche
+msgid "Diamant - Mole lucidanti periferiche"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Mole_periferiche
+msgid "Diamant - Mole periferiche"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Nastri_resinati
+msgid "Diamant - Nastri resinati"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Nastri_sughero
+msgid "Diamant - Nastri sughero"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.diamond.Ostali
+msgid "Diamant - Ostali"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.eva_foil.Bela
+msgid "Eva - Bela"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.eva_foil.Bela_satinato
+msgid "Eva - Bela satinato"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.eva_foil.Black_črna
+msgid "Eva - Black črna"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.eva_foil.Extraclear
+msgid "Eva - Extraclear"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.eva_foil.Razno
+msgid "Eva - Razno"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.eva_foil.Traki_za_laminiranje
+msgid "Eva - Traki za laminiranje"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.isoglass_profiles.Aluminijski
+msgid "Isoglass - Aluminijski"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.isoglass_profiles.Chromatech
+msgid "Isoglass - Chromatech"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.molecular_sieve.Ceca
+msgid "Molekularna sita - Ceca"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.molecular_sieve.Fenzi
+msgid "Molekularna sita - Fenzi"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.molecular_sieve.Nedex
+msgid "Molekularna sita - Nedex"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.processed_glass.Formator
+msgid "Obdelano - Formator"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.processed_glass.Ostali
+msgid "Obdelano - Ostali"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.processed_glass.Sovis_optique
+msgid "Obdelano - Sovis optique"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.ornament_profiles.Al7_meipa
+msgid "Ornament - Al7 meipa"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.ornament_profiles.Fbs_profilati
+msgid "Ornament - Fbs profilati"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.ornament_profiles.Linghemann
+msgid "Ornament - Linghemann"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.ornament_profiles.Strato
+msgid "Ornament - Strato"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.tools.Bohle
+msgid "Orodja - Bohle"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.tools.Elephant
+msgid "Orodja - Elephant"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.tools.Imsa
+msgid "Orodja - Imsa"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.tools.Makita
+msgid "Orodja - Makita"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.tools.Maver_-_ne_za_kaljeno_steklo
+msgid "Orodja - Maver - ne za kaljeno steklo"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.toos.Officine_m&g
+msgid "Orodja - Officine m&g"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.tools.Ostali
+msgid "Orodja - Ostali"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.miscellaneous_materials.Barve_fenzi
+msgid "Razni materiali - Barve fenzi"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.miscellaneous_materials.Cerijev_oksid
+msgid "Razni materiali - Cerijev oksid"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.miscellaneous_materials.Olja_in_razne_emulzije
+msgid "Razni materiali - Olja in razne emulzije"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.miscellaneous_materials.Pesek_za_peskanje
+msgid "Razni materiali - Pesek za peskanje"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.miscellaneous_materials.Plutovinasti_cepki
+msgid "Razni materiali - Plutovinasti cepki"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.miscellaneous_materials.Razno
+msgid "Razni materiali - Razno"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.miscellaneous_materials.Trak_bva
+msgid "Razni materiali - Trak bva"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.miscellaneous_materials.Zaluzije
+msgid "Razni materiali - Zaluzije"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Abac
+msgid "Rezervni deli - Abac"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Battellino
+msgid "Rezervni deli - Battellino"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Biesse
+msgid "Rezervni deli - Biesse"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Bovone
+msgid "Rezervni deli - Bovone"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Denver
+msgid "Rezervni deli - Denver"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.spare.Elephant
+msgid "Rezervni deli - Elephant"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Enkong
+msgid "Rezervni deli - Enkong"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Eurocold
+msgid "Rezervni deli - Eurocold"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.F.lli_pezza
+msgid "Rezervni deli - F.lli pezza"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.For.el.
+msgid "Rezervni deli - For.el."
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Giardina
+msgid "Rezervni deli - Giardina"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Hakon
+msgid "Rezervni deli - Hakon"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Hoaf
+msgid "Rezervni deli - Hoaf"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Idrotecnica
+msgid "Rezervni deli - Idrotecnica"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Italmatic
+msgid "Rezervni deli - Italmatic"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Lovati
+msgid "Rezervni deli - Lovati"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Macotec
+msgid "Rezervni deli - Macotec"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Mappi
+msgid "Rezervni deli - Mappi"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Maver_glass_machinery
+msgid "Rezervni deli - Maver glass machinery"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Odako
+msgid "Rezervni deli - Odako"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Omis
+msgid "Rezervni deli - Omis"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Ostali
+msgid "Rezervni deli - Ostali"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Polyglass
+msgid "Rezervni deli - Polyglass"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Rbb
+msgid "Rezervni deli - Rbb"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Samhan
+msgid "Rezervni deli - Samhan"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Sati
+msgid "Rezervni deli - Sati"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Schiatti
+msgid "Rezervni deli - Schiatti"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Seti
+msgid "Rezervni deli - Seti"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Stefani
+msgid "Rezervni deli - Stefani"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Tornati
+msgid "Rezervni deli - Tornati"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Wagner
+msgid "Rezervni deli - Wagner"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Wgs
+msgid "Rezervni deli - Wgs"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.spare_parts.Zafferani
+msgid "Rezervni deli - Zafferani"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.silicone.Barotehna
+msgid "Silikon - Barotehna"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.silicone.Sika
+msgid "Silikon - Sika"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Nizko_emisivno_steklo
+msgid "Steklo - Nizko emisivno"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Ogledala
+msgid "Steklo - Ogledala"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Ostalo
+msgid "Steklo - Ostalo"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Satinato_-_jedkano_steklo
+msgid "Steklo - Satinato – jedkano"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Uglass
+msgid "Steklo - Uglass"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Antirefleksno_steklo
+msgid "Steklo – Antirefleksno"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Barvano_steklo_v_masi
+msgid "Steklo – Barvano v masi"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Extraclear_steklo
+msgid "Steklo – Extraclear"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Float_steklo
+msgid "Steklo – Float"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Lakirano_steklo
+msgid "Steklo – Lakirano"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Laminirano_steklo
+msgid "Steklo – Laminirano"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Madras_steklo
+msgid "Steklo – Madras"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Ornamentna_stekla
+msgid "Steklo – Ornamentno"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Refleksno_steklo
+msgid "Steklo – Refleksno"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Samocistljivo_steklo
+msgid "Steklo – Samocistljivo"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.glass.Zicno_steklo
+msgid "Steklo – Zicno"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Battellino
+msgid "Stroji - Battellino"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Belfortglass
+msgid "Stroji - Belfortglass"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Biesse
+msgid "Stroji - Biesse"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Denver
+msgid "Stroji - Denver"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.machines.Elephant
+msgid "Stroji - Elephant"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.For.el.
+msgid "Stroji - For.el."
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Forza_g
+msgid "Stroji - Forza g"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Fratelli_pezza
+msgid "Stroji - Fratelli pezza"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Idrotecnica
+msgid "Stroji - Idrotecnica"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Klasifikatorji
+msgid "Stroji - Klasifikatorji"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Lisec
+msgid "Stroji - Lisec"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Macotec
+msgid "Stroji - Macotec"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Mappi
+msgid "Stroji - Mappi"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Ostali
+msgid "Stroji - Ostali"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Polyglass
+msgid "Stroji - Polyglass"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Quaranta
+msgid "Stroji - Quaranta"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Rbb
+msgid "Stroji - Rbb"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Schiatti
+msgid "Stroji - Schiatti"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Tornati
+msgid "Stroji - Tornati"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.machines.Stroji_imsa
+msgid "Stroji – Glasmik"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.gaskets.Fenzi_-_butil
+msgid "Tesnila - Fenzi - butil"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.gaskets.Fenzi_-_hotver
+msgid "Tesnila - Fenzi - hotver"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.gaskets.Fenzi_-_poliuretan
+msgid "Tesnila - Fenzi - poliuretan"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.gaskets.Fenzi_-_thiokol
+msgid "Tesnila - Fenzi - thiokol"
+msgstr ""
+
+#. module: subcateg
+#: model:product.public.category,name:subcateg.gaskets.Kadmar_-_poliuretan
+msgid "Tesnila - Kadmar - poliuretan"
+msgstr ""
+

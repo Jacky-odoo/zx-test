@@ -1,0 +1,93 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* phone_validation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: phone_validation
+#: selection:res.company,phone_international_format:0
+msgid "Add international prefix"
+msgstr "Dodaj mednarodno predpono"
+
+#. module: phone_validation
+#: model:ir.model.fields,help:phone_validation.field_res_company__phone_international_format
+msgid "Always encode phone numbers using international format. Otherwise numbers coming from the company's country are nationaly formatted. International numbers are always using international format."
+msgstr "Vedno zapiši telefonske številke v mednarodni obliki. V nasprotnem primeru so številke, ki prihajajo iz države družbe zapisane v nacionalnem formatu. Mednarodne številke vedno uporabljajo mednarodni format."
+
+#. module: phone_validation
+#: model:ir.model,name:phone_validation.model_res_company
+msgid "Companies"
+msgstr "Družbe"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_validation_mixin__display_name
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_validation_mixin__id
+msgid "ID"
+msgstr ""
+
+#. module: phone_validation
+#: code:addons/addons/phone_validation/tools/phone_validation.py:23
+#: code:addons/phone_validation/tools/phone_validation.py:23
+#, python-format
+msgid "Impossible number %s: probably invalid number of digits"
+msgstr ""
+
+#. module: phone_validation
+#: code:addons/addons/phone_validation/tools/phone_validation.py:25
+#: code:addons/phone_validation/tools/phone_validation.py:25
+#, python-format
+msgid "Invalid number %s: probably incorrect prefix"
+msgstr ""
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_phone_validation_mixin____last_update
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
+
+#. module: phone_validation
+#: model:ir.model.fields,field_description:phone_validation.field_res_company__phone_international_format
+msgid "Local Numbers"
+msgstr "Lokalne številke"
+
+#. module: phone_validation
+#: selection:res.company,phone_international_format:0
+msgid "No prefix"
+msgstr "Brez predpone"
+
+#. module: phone_validation
+#: model:ir.model,name:phone_validation.model_phone_validation_mixin
+msgid "Phone Validation Mixin"
+msgstr ""
+
+#. module: phone_validation
+#: code:addons/addons/phone_validation/tools/phone_validation.py:44
+#: code:addons/phone_validation/tools/phone_validation.py:44
+#, python-format
+msgid "Unable to format %s:\n"
+"%s"
+msgstr ""
+
+#. module: phone_validation
+#: code:addons/addons/phone_validation/tools/phone_validation.py:20
+#: code:addons/phone_validation/tools/phone_validation.py:20
+#, python-format
+msgid "Unable to parse %s:\n"
+"%s"
+msgstr "Ni mogoče razčleniti %s:\n"
+"%s."
+

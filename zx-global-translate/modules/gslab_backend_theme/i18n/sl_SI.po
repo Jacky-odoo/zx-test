@@ -1,0 +1,59 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* gslab_backend_theme
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: gslab_backend_theme
+#: model_terms:ir.ui.view,arch_db:gslab_backend_theme.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Theme Colors</span>"
+msgstr ""
+
+#. module: gslab_backend_theme
+#: model_terms:ir.ui.view,arch_db:gslab_backend_theme.res_config_settings_view_form
+msgid "Backend Theme"
+msgstr "Backend Tema"
+
+#. module: gslab_backend_theme
+#: model:ir.model.fields,field_description:gslab_backend_theme.field_res_config_settings__theme_color_brand
+#: model_terms:ir.ui.view,arch_db:gslab_backend_theme.res_config_settings_view_form
+msgid "Brand"
+msgstr ""
+
+#. module: gslab_backend_theme
+#: model:ir.model,name:gslab_backend_theme.model_res_config_settings
+msgid "Config Settings"
+msgstr "Nastavitve"
+
+#. module: gslab_backend_theme
+#: model:ir.model.fields,help:gslab_backend_theme.field_res_config_settings__theme_color_brand
+msgid "Default brand color: #7E4861"
+msgstr ""
+
+#. module: gslab_backend_theme
+#: model:ir.model.fields,help:gslab_backend_theme.field_res_config_settings__theme_color_primary
+msgid "Default primary color: #01A29D"
+msgstr ""
+
+#. module: gslab_backend_theme
+#: model:ir.model.fields,field_description:gslab_backend_theme.field_res_config_settings__theme_color_primary
+#: model_terms:ir.ui.view,arch_db:gslab_backend_theme.res_config_settings_view_form
+msgid "Primary"
+msgstr ""
+
+#. module: gslab_backend_theme
+#: model_terms:ir.ui.view,arch_db:gslab_backend_theme.res_config_settings_view_form
+msgid "Set the main theme colors"
+msgstr ""
+

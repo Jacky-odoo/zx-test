@@ -1,0 +1,45 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* partner_mail_message_view
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_mail_message_view
+#: model:ir.model.fields,field_description:partner_mail_message_view.field_res_partner__all_message_ids
+#: model:ir.model.fields,field_description:partner_mail_message_view.field_res_users__all_message_ids
+msgid "All Message"
+msgstr "Vsa sporočila"
+
+#. module: partner_mail_message_view
+#: model:ir.model,name:partner_mail_message_view.model_res_partner
+msgid "Contact"
+msgstr "Stik"
+
+#. module: partner_mail_message_view
+#: model:ir.model.fields,field_description:partner_mail_message_view.field_res_partner__mail_counter
+#: model:ir.model.fields,field_description:partner_mail_message_view.field_res_users__mail_counter
+msgid "Mail Counter"
+msgstr "Števec pošte"
+
+#. module: partner_mail_message_view
+#: model_terms:ir.ui.view,arch_db:partner_mail_message_view.res_partner_view_buttons
+msgid "Mails"
+msgstr "Pošta"
+
+#. module: partner_mail_message_view
+#: model:ir.actions.act_window,name:partner_mail_message_view.mail_message_partner
+#: model_terms:ir.ui.view,arch_db:partner_mail_message_view.mail_message_partner_tree_view
+msgid "Messages"
+msgstr "Sporočila"
+

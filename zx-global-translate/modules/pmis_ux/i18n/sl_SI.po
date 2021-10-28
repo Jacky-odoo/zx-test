@@ -1,0 +1,366 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pmis_ux
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-28 09:06+0200\n"
+"Last-Translator: Nejc86 <nejc@glasmik.si>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: sl_SI\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.pmis_ux
+msgid "<b>Registry Number: </b>"
+msgstr "<b>Reg. št.: </b>"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.pmis_ux
+msgid "<b>VAT: </b>"
+msgstr "<b>ID za DDV: </b>"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_template_form_view_inh
+msgid ""
+"<span attrs=\"{'invisible': [('pricelist_item_count', '=', 1)]}\">\n"
+"                        Extra Prices\n"
+"                    </span>\n"
+"                    <span attrs=\"{'invisible': [('pricelist_item_count', '!=', 1)]}\">\n"
+"                        Extra Price\n"
+"                    </span>"
+msgstr ""
+"<span attrs=\"{'invisible': [('pricelist_item_count', '=', 1)]}\">\n"
+"                        Dodatne cene\n"
+"                    </span>\n"
+"                    <span attrs=\"{'invisible': [('pricelist_item_count', '!=', 1)]}\">\n"
+"                        Dodatna cena\n"
+"                    </span>"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_normal_form_view_inherit_purchase
+#: model_terms:ir.ui.view,arch_db:pmis_ux.view_product_template_purchase_buttons_from
+msgid "<span class=\"o_stat_text\">Incoming</span>"
+msgstr "<span class=\"o_stat_text\">Nabava</span>"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_form_view_procurement_button_inh
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_template_form_view_procurement_button_inh
+msgid "<span class=\"o_stat_text\">Outgoing</span>"
+msgstr "<span class=\"o_stat_text\">Za odpremo</span>"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.report_batch_picking
+msgid "<span style=\"text-align: right;\"> unit(s)</span>"
+msgstr "<span style=\"text-align: right;\"> enota(e)</span>  -"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.report_saleorder_document
+msgid "<strong>Partner n.:</strong>"
+msgstr "<strong>Partner št.:</strong>"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.report_picking
+msgid "<strong>Units</strong>"
+msgstr "<strong>Enote</strong>"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.report_picking
+msgid "<strong>Weight</strong>"
+msgstr "<strong>Teža</strong>"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_product_product__alt_unit_size
+#: model:ir.model.fields,field_description:pmis_ux.field_product_template__alt_unit_size
+msgid "Alternate Logistic UoM conversion"
+msgstr "Pretvorba alternativne logistične merske enote"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_res_company__company_alt_logo
+msgid "Alternate Logo"
+msgstr "Alternativni logotip"
+
+#. module: pmis_ux
+#: model:ir.model.fields,help:pmis_ux.field_res_company__company_alt_logo
+msgid "Alternate logo used on some reports"
+msgstr "Alternativni logotip, ki se uporablja v nekaterih poročilih"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_pricelist_item_tree_view
+msgid "Applied On"
+msgstr "Se nanaša na"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.purchase_order_line_select_inherit2
+#: model_terms:ir.ui.view,arch_db:pmis_ux.sale_order_line_select_inherit2
+msgid "Backorder"
+msgstr "Zaostalo naročilo"
+
+#. module: pmis_ux
+#: selection:product.template,purchase_line_warn:0
+msgid "Blocking Message"
+msgstr "Sporočilo ob blokadi"
+
+#. module: pmis_ux
+#: selection:product.template,tracking:0
+msgid "By Lots"
+msgstr "Po lotih"
+
+#. module: pmis_ux
+#: selection:product.template,tracking:0
+msgid "By Unique Serial Number"
+msgstr "Po edinstveni serijski številki"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.report_saleorder_document
+msgid "Code"
+msgstr "Koda"
+
+#. module: pmis_ux
+#: model:ir.model,name:pmis_ux.model_res_company
+msgid "Companies"
+msgstr "Podjetja"
+
+#. module: pmis_ux
+#: model:ir.model.fields,help:pmis_ux.field_res_company__company_signature
+msgid "Company level document signature (orders, invoices) on reports"
+msgstr "Podpisovanje dokumentov na ravni podjetja (naročila, računi) v poročilih"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_product_product__purchase_method
+#: model:ir.model.fields,field_description:pmis_ux.field_product_template__purchase_method
+msgid "Control Policy"
+msgstr "Pravilnik nadzora"
+
+#. module: pmis_ux
+#: model:ir.model.fields,help:pmis_ux.field_product_product__alt_unit_size
+#: model:ir.model.fields,help:pmis_ux.field_product_template__alt_unit_size
+msgid "Conversion to alternate logistic UoM (1 logistic alternate unit = this value of product UoM)"
+msgstr "Konverzija v alternativno logistično EM (1 logistična alternativna enota = ta vrednost EM izdelka)"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_product_product__sale_delay
+#: model:ir.model.fields,field_description:pmis_ux.field_product_template__sale_delay
+msgid "Customer Lead Time"
+msgstr "Dobavni rok"
+
+#. module: pmis_ux
+#. openerp-web
+#: code:addons/pmis_ux/static/src/xml/m2m_tags_link.xml:43
+#, python-format
+msgid "Delete"
+msgstr "Izbriši"
+
+#. module: pmis_ux
+#: model:ir.model.fields,help:pmis_ux.field_product_product__sale_delay
+#: model:ir.model.fields,help:pmis_ux.field_product_template__sale_delay
+msgid "Delivery lead time, in days. It's the number of days, promised to the customer, between the confirmation of the sales order and the delivery."
+msgstr "Dobavni rok v dnevih. To je število dni, ki jih obljubimo stranki, med potrditvijo prodajnega naloga in dobavo."
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_res_company__company_signature
+msgid "Document Signature"
+msgstr "Podpis na dokumentih"
+
+#. module: pmis_ux
+#: model:ir.model.fields,help:pmis_ux.field_product_product__tracking
+#: model:ir.model.fields,help:pmis_ux.field_product_template__tracking
+msgid "Ensure the traceability of a storable product in your warehouse."
+msgstr "Zagotovi sledljivost vseh hranljivih izdelkov v vašem skladišču."
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_normal_form_view_inherit_purchase
+#: model_terms:ir.ui.view,arch_db:pmis_ux.view_product_template_purchase_buttons_from
+msgid "Incoming"
+msgstr "Na nabavnem"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.report_picking
+msgid "Kg"
+msgstr "Kg"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_purchase_order_line__alt_unit_qty
+#: model:ir.model.fields,field_description:pmis_ux.field_sale_order_line__alt_unit_qty
+msgid "Logistic Qty"
+msgstr "Logist. kol"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.pmis_ux
+msgid "Logo"
+msgstr "Logotip"
+
+#. module: pmis_ux
+#: selection:product.template,purchase_line_warn:0
+msgid "No Message"
+msgstr "Brez sporočila"
+
+#. module: pmis_ux
+#: selection:product.template,tracking:0
+msgid "No Tracking"
+msgstr "Brez sledenja"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_product_product__pricelist_item_count
+#: model:ir.model.fields,field_description:pmis_ux.field_product_template__pricelist_item_count
+msgid "Number of price rules"
+msgstr "Število cenovnih pravil"
+
+#. module: pmis_ux
+#: selection:product.template,purchase_method:0
+msgid "On ordered quantities"
+msgstr "Po naročeni količini"
+
+#. module: pmis_ux
+#: model:ir.model.fields,help:pmis_ux.field_product_product__purchase_method
+#: model:ir.model.fields,help:pmis_ux.field_product_template__purchase_method
+msgid ""
+"On ordered quantities: Control bills based on ordered quantities.\n"
+"On received quantities: Control bills based on received quantities."
+msgstr ""
+"Po naročenih količinah. Kontrola prejetih računov na osnovi naročenih količin.\n"
+"Po prejetih količinah. Kontrola prejetih računov na osnovi prejetih količin."
+
+#. module: pmis_ux
+#: selection:product.template,purchase_method:0
+msgid "On received quantities"
+msgstr "Po prejeti količini"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_form_view_procurement_button_inh
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_template_form_view_procurement_button_inh
+msgid "Outgoing"
+msgstr "Na prodajnem"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.pmis_ux
+msgid "Page: <span class=\"page\"/> / <span class=\"topage\"/>"
+msgstr "Stran: <span class=\"page\"/> / <span class=\"topage\"/>"
+
+#. module: pmis_ux
+#: code:addons/pmis_ux/models/product_pricelist.py:16
+#, python-format
+msgid "Please specify the category for which this rule should be applied"
+msgstr "Navedite kategorijo, za katero naj se uporabi to pravilo"
+
+#. module: pmis_ux
+#: code:addons/pmis_ux/models/product_pricelist.py:21
+#, python-format
+msgid "Please specify the product for which this rule should be applied"
+msgstr "Navedite izdelek, za katerega naj se uporabi to pravilo"
+
+#. module: pmis_ux
+#: code:addons/pmis_ux/models/product_pricelist.py:26
+#, python-format
+msgid "Please specify the product variant for which this rule should be applied"
+msgstr "Navedite različico izdelka, za katero naj se uporabi to pravilo"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_pricelist_item_tree_view
+msgid "Price"
+msgstr "Cena"
+
+#. module: pmis_ux
+#: code:addons/pmis_ux/models/product.py:101
+#: code:addons/pmis_ux/models/product.py:191
+#, python-format
+msgid "Price Rules"
+msgstr "Cenovna pravila"
+
+#. module: pmis_ux
+#: model:ir.model,name:pmis_ux.model_product_pricelist_item
+msgid "Pricelist Item"
+msgstr "Vnos cenovne liste"
+
+#. module: pmis_ux
+#: model:ir.model,name:pmis_ux.model_product_product
+msgid "Product"
+msgstr "Izdelek"
+
+#. module: pmis_ux
+#: model:ir.model,name:pmis_ux.model_product_template
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_pricelist_item_form_view
+msgid "Product Template"
+msgstr "Predloga izdeleka"
+
+#. module: pmis_ux
+#: model:ir.model,name:pmis_ux.model_purchase_order_line
+#: model:ir.model.fields,field_description:pmis_ux.field_product_product__purchase_line_warn
+#: model:ir.model.fields,field_description:pmis_ux.field_product_template__purchase_line_warn
+msgid "Purchase Order Line"
+msgstr "Postavka nabavnega naloga"
+
+#. module: pmis_ux
+#: model:ir.actions.act_window,name:pmis_ux.action_purchase_line_product_product_tree
+#: model:ir.actions.act_window,name:pmis_ux.action_purchase_line_product_tree
+msgid "Purchases"
+msgstr "Nabave"
+
+#. module: pmis_ux
+#: model:ir.actions.act_window,name:pmis_ux.action_product_product_sale_list
+msgid "Sales"
+msgstr "Prodaja"
+
+#. module: pmis_ux
+#: model:ir.model,name:pmis_ux.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Postavka prodajnih naročil"
+
+#. module: pmis_ux
+#: model:ir.model.fields,help:pmis_ux.field_product_product__purchase_line_warn
+#: model:ir.model.fields,help:pmis_ux.field_product_template__purchase_line_warn
+msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
+msgstr "Izbira možnosti \"Opozorilo\" uporabnika obvesti s sporočilom. Izbira \"Sporočila ob blokadi\" povzroči izjemo, izpiše sporočilo in zaustavi potek. Sporočilo je potrebno zapisati v naslednje polje."
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.purchase_order_line_select_inherit2
+#: model_terms:ir.ui.view,arch_db:pmis_ux.sale_order_line_select_inherit2
+msgid "Show Just Backorder Line"
+msgstr "Prikaži le vrstice zaostalih naročil"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_res_company__separate_code_description
+msgid "Show separate columns for product code and product description in sale order?"
+msgstr "Prikaži ločene stolpce za kodo in opis izdeleka v prodajnem nalogu?"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_res_company__taxes_on_so_qweb
+msgid "Show taxes as percentage in sale order columns?"
+msgstr "Prikaži davke kot odstotek v stolpcih prodajnega naloga?"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.product_normal_form_view_inherit_purchase
+#: model_terms:ir.ui.view,arch_db:pmis_ux.view_product_template_purchase_buttons_from
+msgid "Stock Moves"
+msgstr "Premiki zaloge"
+
+#. module: pmis_ux
+#: model:ir.model.fields,field_description:pmis_ux.field_product_product__tracking
+#: model:ir.model.fields,field_description:pmis_ux.field_product_template__tracking
+msgid "Tracking"
+msgstr "Sledenje"
+
+#. module: pmis_ux
+#: model_terms:ir.ui.view,arch_db:pmis_ux.report_invoice_service_date
+#: model_terms:ir.ui.view,arch_db:pmis_ux.report_saleorder_document
+msgid "VAT"
+msgstr "DŠ"
+
+#. module: pmis_ux
+#: selection:product.template,purchase_line_warn:0
+msgid "Warning"
+msgstr "Opozorilo"
+
+#. module: pmis_ux
+#. openerp-web
+#: code:addons/pmis_ux/static/src/xml/datepicker.xml:9
+#, python-format
+msgid "off"
+msgstr "izklop"

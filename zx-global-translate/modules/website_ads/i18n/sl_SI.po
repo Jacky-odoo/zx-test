@@ -1,0 +1,163 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* website_ads
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-27 09:27+0000\n"
+"PO-Revision-Date: 2021-10-27 09:27+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.website_ads_form
+msgid "Advertisement Name"
+msgstr ""
+
+#. module: website_ads
+#: model:ir.ui.menu,name:website_ads.menu_website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.snippet_website_ads_view
+#: model:website.menu,name:website_ads.website_menu_website_ads
+msgid "Advertisements"
+msgstr "RABLJENI STROJI"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form
+msgid "Contact number"
+msgstr ""
+
+#. module: website_ads
+#: model_terms:ir.actions.act_window,help:website_ads.website_ads_action
+msgid "Create Certificate Types"
+msgstr ""
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__create_uid
+msgid "Created by"
+msgstr "Ustvaril"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__create_date
+msgid "Created on"
+msgstr "Ustvarjeno"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__cus_check
+msgid "Customer"
+msgstr "Stranka"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__desc_info
+msgid "Description"
+msgstr "Opis"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__display_name
+msgid "Display Name"
+msgstr "Prikazni naziv"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form
+msgid "E-mail address*"
+msgstr ""
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form
+msgid "Enquiry Details*"
+msgstr ""
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form
+msgid "Enquiry Form"
+msgstr ""
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__id
+msgid "ID"
+msgstr ""
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__image_data
+msgid "Image"
+msgstr "Slika"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads____last_update
+msgid "Last Modified on"
+msgstr "Zadnjič spremenjeno"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__write_uid
+msgid "Last Updated by"
+msgstr "Zadnji posodobil"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__write_date
+msgid "Last Updated on"
+msgstr "Zadnjič posodobljeno"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__name
+#: model_terms:ir.ui.view,arch_db:website_ads.website_ads_form
+msgid "Name"
+msgstr "Naziv"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form
+msgid "Name*"
+msgstr ""
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__price
+msgid "Price"
+msgstr "Cena"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form
+#: model_terms:ir.ui.view,arch_db:website_ads.snippet_website_ads_view
+msgid "Price:"
+msgstr "Cena:"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form
+msgid "Product Name"
+msgstr "Ime Izdelka"
+
+#. module: website_ads
+#: model:ir.model.fields,field_description:website_ads.field_website_ads__publish
+msgid "Publish"
+msgstr "Objavi"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form
+msgid "Submit"
+msgstr "Predloži"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form_thank_you
+msgid "THANK YOU"
+msgstr "HVALA"
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.website_ads_form
+msgid "Website Advertisement"
+msgstr ""
+
+#. module: website_ads
+#: model:ir.actions.act_window,name:website_ads.website_ads_action
+#: model:ir.model,name:website_ads.model_website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.website_ads_tree
+msgid "Website Advertisements"
+msgstr ""
+
+#. module: website_ads
+#: model_terms:ir.ui.view,arch_db:website_ads.enquiry_form_thank_you
+msgid "Your Enquiry Details has been Received."
+msgstr "Podrobnosti vaše poizvedbe so bile prejete."
+
